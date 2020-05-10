@@ -15,12 +15,12 @@
 
 :root {
 
-    /* @color names */
+    /* @color names: */
     --color-white  : #fff;
     --color-black  : #000;
 
 
-    /* @theme colors */
+    /* @theme colors: */
     --theme-1      : #0064aa;
     --theme-2      : #ea1f26;
     --theme-3      : #f6901e;
@@ -30,11 +30,11 @@
     
     --title        : #1f252a;
     
-    /* @extend color var */
+    /* @extend color var: */
     --body-bg      : var(--color-white);
     --invers       : var(--color-white);
     
-    --main         : var(--text);
+    --main         : var(--text-dk);
     --link         : var(--theme-1);
     --hover        : var(--theme-2);
     
@@ -42,6 +42,17 @@
     --title-hero   : var(--title);
     --title-section: var(--title);
     --title-page   : var(--title);
+
+    /* @FF: */
+    --Inter: 'Inter', serif;
+    --main-font   : var(--Inter);
+
+    /* @Font size: */
+    --fz-main: 16px;
+    --fz-h1: 30px;
+    --fz-h2: 25px;
+    --fz-h3: 20px;
+
 
     /* @layouts bg:  heaer, hero, content, footer, copy ....*/
     

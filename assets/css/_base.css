@@ -1,0 +1,63 @@
+body {
+    color: var(--main);
+    background: var(--body-bg) url(../_images/bg.png) 50% 0;
+    font: 500 var(--fz-main)/1.75 'Inter', sans-serif;
+}
+
+
+p {
+    margin-bottom: 25px;
+}
+
+
+a, a:focus, button, button:focus {
+    outline: none;
+}
+a {
+    color: var(--main);
+}
+a:hover {
+    text-decoration: none;
+    color: var(--hover);
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+em {  }
+
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 18px;
+    font-family: var(--ff-main);
+    line-height: 1;
+    color: var(--title);
+}
+h1 {
+    
+}
+h2 {
+    
+}
+h3 {
+     
+}
+h4 {
+    
+}
+h5 {
+    
+}
+h6 {
+
+}
