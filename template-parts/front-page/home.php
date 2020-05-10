@@ -1,20 +1,83 @@
-<section class="section-name">
-	<div class="container-fluid container-width">
+<section class="section-pricing">
+	<div class="container-fluid container-width-md">
 		
-		<div class="section-title title-block">
+		<div class="section-title title-block title-center">
 			<h2>Выберите свой вариант</h2>
 			<span class="title-line line-left"><span class="line-inner"></span></span>
 		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-md-4">
-
+		<div class="row justify-content-between text-center">
+			<div class="col-md pricing-col">
+				<div class="pricing-plan">
+					<div class="ico">
+						<img src="../../assets/images/ico/servers.svg" alt="">
+					</div>
+					<h3>Хостинг</h3>
+					<div class="price">от <strong>$0.45</strong> /месяц</div>
+					<ul class="list-plan text-left">
+						<li>Гибкий настраиваемый тариф</li>
+						<li>AntiDDoS включен в стоимость</li>
+						<li>IP адреса до пяти разных стран включены в тариф</li>
+						<li>От 3ГБ дискового пространства</li>
+						<li>Производим и храним бекапы за последние 3 месяца бесплатно</li>
+						<li>Аптайм более 99%</li>
+						<li>Техподдержка 24/7</li>
+					</ul>
+					<div class="description">
+						Хостинг для небольших и средних проектов с тарифом-конструктором, позволяющим платить только за те опции, которые необходимы
+					</div>
+					<div class="btn-wrap btn-order text-center">
+						<a href="#" class="btn btn-border btn-style_1">Заказать</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4">
-
+			<div class="col-md pricing-col">
+				<div class="pricing-plan">
+					<div class="ico" style="max-width: 60px;">
+						<img src="../../assets/images/ico/servers.svg" alt="">
+					</div>
+					<h3>Хостинг</h3>
+					<div class="price">от <strong>$0.45</strong> /месяц</div>
+					<ul class="list">
+						<li>Гибкий настраиваемый тариф</li>
+						<li>AntiDDoS включен в стоимость</li>
+						<li>IP адреса до пяти разных стран включены в тариф</li>
+						<li>От 3ГБ дискового пространства</li>
+						<li>Производим и храним бекапы за последние 3 месяца бесплатно</li>
+						<li>Аптайм более 99%</li>
+						<li>Техподдержка 24/7</li>
+					</ul>
+					<div class="description">
+						Хостинг для небольших и средних проектов с тарифом-конструктором, позволяющим платить только за те опции, которые необходимы
+					</div>
+					<div class="btn-wrap btn-order text-center">
+						<a href="#" class="btn btn-style_1">Заказать</a>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4">
-
+			<div class="col-md pricing-col">
+				<div class="pricing-plan">
+					<div class="ico" style="max-width: 60px;">
+						<img src="../../assets/images/ico/servers.svg" alt="">
+					</div>
+					<h3>Хостинг</h3>
+					<div class="price">от <strong>$0.45</strong> /месяц</div>
+					<ul class="list">
+						<li>Гибкий настраиваемый тариф</li>
+						<li>AntiDDoS включен в стоимость</li>
+						<li>IP адреса до пяти разных стран включены в тариф</li>
+						<li>От 3ГБ дискового пространства</li>
+						<li>Производим и храним бекапы за последние 3 месяца бесплатно</li>
+						<li>Аптайм более 99%</li>
+						<li>Техподдержка 24/7</li>
+					</ul>
+					<div class="description">
+						Хостинг для небольших и средних проектов с тарифом-конструктором, позволяющим платить только за те опции, которые необходимы
+					</div>
+					<div class="btn-wrap btn-order text-center">
+						<a href="#" class="btn btn-style_1">Заказать</a>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -22,11 +85,11 @@
 </section><!--//// Section Name -->
 
 
-<section class="section-site_name">
+<section class="block section-spaces invers-color text-center">
 	<div class="container-fluid container-width">
 		
-		<div class="section-title title-block">
-			<h2>Выберите красивое имя своему сайту</h2>
+		<div class="section-title title-block title-center">
+			<h2 class="invers-custom">Выберите красивое имя своему сайту</h2>
 			<span class="title-line line-left"><span class="line-inner"></span></span>
 		</div>
 
@@ -50,10 +113,10 @@
 </section><!--//// site_name -->
 
 
-<section class="section-name">
+<section class="block section-name">
 	<div class="container-fluid container-width">
 		
-		<div class="section-title title-block">
+		<div class="section-title title-block title-center">
 			<h2>Наши преимущества</h2>
 			<span class="title-line line-left"><span class="line-inner"></span></span>
 		</div>
@@ -83,10 +146,10 @@
 </section><!--//// Section Name -->
 
 
-<section class="section-news">
+<section class="block section-news">
 	<div class="container-fluid container-width">
 		
-		<div class="section-title title-block">
+		<div class="section-title title-block title-center">
 			<h2>Новости</h2>
 			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
@@ -130,16 +193,16 @@
 </section><!--//// section-news -->
 
 
-<section class="section-name">
+<section class="section-block invers-color text-center">
 	<div class="container-fluid container-width">
 		
-		<div class="section-title title-block">
-			<h2>Заголовок блокат</h2>
+		<div class="section-title title-block title-center">
+			<h2 class="invers-custom">Заголовок блокат</h2>
 			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-md-10">
+			<div class="col-md-7">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
 			</div>
 		</div>
@@ -148,7 +211,7 @@
 </section><!--//// Section Name -->
 
 
-<section class="section-name">
+<section class="section-why block">
 	<div class="container-fluid">
 		
 		<div class="row">
@@ -163,7 +226,7 @@
 			</div>
 			<div class="col-md-6">
 				<div class="section-title title-block">
-					<h2>Почему мы?</h2>
+					<h2>Что такое хостинг?</h2>
 					<span class="title-line line-left"><span class="line-inner"></span></span>
 				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 

@@ -8,10 +8,75 @@
 	padding: 180px 0;
 
 	background-color: var(--theme-1);
-	background: url(../images/wave.png) left 50% bottom -90px no-repeat,
-				url(../images/hero.jpg) 50% 0 no-repeat;
+	background: url(../../images/wave.png) left 50% bottom -90px no-repeat,
+				url(../../images/hero.jpg) 50% 0 no-repeat;
 }
 
+
+/* 
+...............................*/
+.section-pricing {
+    padding-bottom: 155px;
+}
+
+.pricing-col {
+    max-width: 427px;
+}
+.pricing-plan {
+    padding: 53px 52px 52px;
+    border-radius: 20px;
+    box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+}
+.pricing-plan .ico {
+    max-width: 60px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.pricing-plan h3 {
+    border-radius: 20px;
+    padding: 12px;
+    background-color: #f5f5f5;
+    margin-bottom: 27px;
+}
+.pricing-plan .price {
+    margin-bottom: 27px;
+}
+.pricing-plan ul.list-plan {
+    padding: 28px 22px;
+    margin-bottom: 27px;
+    border-radius: 20px;
+    border: 1px solid #f5f5f5;
+}
+.pricing-plan .description {
+    margin-bottom: 27px;
+}
+.pricing-plan .btn-wrap  {
+
+}
+
+
+/* 
+...............................*/
+.section-spaces {
+    min-height: 381px;
+    padding: 93px 0 100px;
+    background: var(--theme-3) url(../../images/section-spaces.jpg) 50%/cover no-repeat;
+}
+
+
+.section-news {
+    padding: 125px 0 112px;
+    background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, #f7f7f7, #fff);
+}
+
+
+/* 
+...............................*/
+.section-block {
+    min-height: 381px;
+    padding: 93px 0 100px;
+    background: var(--theme-3) url(../../images/section-block.jpg) 50%/cover no-repeat;
+}
 
 
 

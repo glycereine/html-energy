@@ -69,9 +69,9 @@ span.line-left {
 
 /* Invers
 ...............................*/
-.invers-main, 
-.invers h1, .invers h2, .invers h3, .invers h4,
-h1.invers-color, h2.invers-color, h3.invers-color, h4.invers-color {
+.invers-color, 
+.invers-parent h1, .invers-parent h2, .invers-parent h3, .invers-parent h4,
+h1.invers-custom, h2.invers-custom, h3.invers-custom, h4.invers-custom {
     color: var(--invers);
 }
 

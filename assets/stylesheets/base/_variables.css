@@ -1,7 +1,7 @@
 /*  VARIABLES
 ----------------------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
 
 .test-ff {
 	font-family: 'Inter', serif;
@@ -19,6 +19,7 @@
 :root {
 	/* @Layout  : */
 	--base-width          : 1800px;
+	--secondary-width     : 1491px;
 
 	/* @color names       : */
 	--color-white         : #fff;
@@ -32,6 +33,7 @@
 	
 	--text                : #626669;
 	--text-dk             : #1f252a;
+	--text-dk-rgb 		  : 31, 37, 42;
 	
 	--title               : #1f252a;
 	
@@ -54,9 +56,10 @@
 	
 	/* @Font size         : */
 	--fz-main             : 16px;
-	--fz-h1               : 30px;
-	--fz-h2               : 25px;
+	--fz-h1               : 58px;
+	--fz-h2               : 36px;
 	--fz-h3               : 20px;
+	--fz-h4               : 20px;
 	
 	/* @Footer bg colors  : */
 	--footer-area-bg      : #1f252a;

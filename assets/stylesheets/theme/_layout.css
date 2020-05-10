@@ -2,10 +2,13 @@
 -----------------------------------------------*/
 
 .container-width {
-    margin: 0 auto;
     max-width: var(--base-width);
-    position: relative;
 }
+
+.container-width-md {
+    max-width: var(--secondary-width);
+}
+
 
 
 .content {
@@ -27,7 +30,7 @@ section {
 
 
 .block {
-    padding: 70px 0;
+    padding: 93px 0 100px;
 }
 
 .block-mb {
