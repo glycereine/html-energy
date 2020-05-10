@@ -1,0 +1,83 @@
+/*  Helpers
+----------------------------------------------------------- */
+
+.img-wide {
+    width: 100%;
+}
+
+.text-up {
+    text-transform: uppercase;
+}
+
+
+.overflow {
+    overflow: hidden;
+}
+
+.img-border {
+    border: 5px solid #fff;
+}
+.img-round {
+    border-radius: 8px;
+}
+
+.fleft {
+    float: left;
+}
+
+
+.fright {
+    float: right;
+}
+
+
+.content-middle {
+    position: relative;
+    transform: translateY(-50%);
+    vertical-align: middle;
+    top: 50%;
+    width: 15px;
+    height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .fleft-sm {
+        float: left;
+    }
+    .fright-sm {
+        float: right;
+    }   
+    .va-m-sm {
+        vertical-align: middle;
+    }
+    .text-right-sm {
+        text-align: right;
+    }
+    .text-left-sm {
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .fleft-md {
+        float: left;
+    }
+    .fright-md {
+        float: right;
+    }
+
+    .table-md {
+        display: table;
+        height: 100%;
+        width: 100%;
+    }
+
+    .va-m-md {
+        vertical-align: middle;
+    }
+    .text-right-md {
+        text-align: right;
+    }
+    .text-left-md {
+        text-align: left;
+    }
+}

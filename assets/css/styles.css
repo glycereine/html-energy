@@ -1,15 +1,17 @@
+@import url('_variables.css');
+
+@import url('_base.css');
+@import url('_typography.css');
+@import url('_helpers.css');
+
+@import url('_utilites.css');
+@import url('_modules.css');
 
 
-@import url('/_variables.css');
-@import url('/_bases.css');
+@import url('_layout.css');
 
-@import url('/_layout.css');
+@import url('_main.css');
 
-@import url('/_utilites.css');
+@import url('_nav.css');
 
-
-@import url('/_main.css');
-
-@import url('/_nav.css');
-
-@import url('/_responsive.css');
+@import url('_responsive.css');

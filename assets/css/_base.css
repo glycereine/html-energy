@@ -1,3 +1,6 @@
+/*  Bases
+----------------------------------------------------------- */
+
 body {
     color: var(--main);
     background: var(--body-bg) url(../_images/bg.png) 50% 0;
@@ -21,15 +24,21 @@ a:hover {
     color: var(--hover);
 }
 
-
 img {
     max-width: 100%;
     height: auto;
 }
 
-
 em {  }
 
+hr {
+    margin: 54px 0 65px;
+    border-top: 2px solid #eeedec;
+}
+
+strong {
+    font-weight: 700;
+}
 
 ul {
     padding: 0;
@@ -37,6 +46,8 @@ ul {
 }
 
 
+/*  Headings
+...............................*/
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 18px;
     font-family: var(--ff-main);
@@ -60,4 +71,35 @@ h5 {
 }
 h6 {
 
+}
+
+
+/*  Forms
+...............................*/
+label {
+    font-weight: 400;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+select {
+    border: 0;
+    background: transparent;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin-top: 7px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #8d877e;
+    font: 13px/2 'Inter', serif;
+}
+.form-control::-moz-placeholder {
+    color: #8d877e;
+    font: 13px/2 'Inter', serif;
+}
+.form-control:-ms-input-placeholder {
+    color: #8d877e;
+    font: 13px/2 'Inter', serif;
 }

@@ -6,13 +6,13 @@
 
 		<nav class="navbar navbar-expand-md">
 
-				<div class="navbar-header">
-					<a class="navbar-brand" href="/" alt="Energy">
-						<img src="assets/images/logo.png" alt="">
-					</a>
-				</div>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/" alt="Energy">
+					<img src="assets/images/logo.png" alt="">
+				</a>
+			</div>
 
-				<?php include ("template-parts/header/nav.php");?>
+			<?php include ("template-parts/header/nav.php");?>
 
 		</nav>
 	</div>

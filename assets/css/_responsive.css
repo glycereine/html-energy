@@ -342,7 +342,7 @@
 	}
 
 	.header {
-		background-image: url(../_images/bg-header-mb.png);
+		background-image: url(../images/bg-header-mb.png);
 	}
 
 
@@ -407,7 +407,7 @@
 		padding: 0 15px 53px;
 	}
 	.block-do:after {
-	    background-image: url(../_images/bg-do-mb.png);
+	    background-image: url(../images/bg-do-mb.png);
 	    bottom: -62px;
 	    height: 83px;
 	}
@@ -449,7 +449,7 @@
 
 
 	.subscribe {
-		background: transparent url(../_images/bg-subscribe-mb.png) 50% 0 no-repeat;
+		background: transparent url(../images/bg-subscribe-mb.png) 50% 0 no-repeat;
 		margin-bottom: -146px;
 		padding-top: 45px;
 		margin-top: 80px;
