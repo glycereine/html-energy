@@ -4,12 +4,14 @@
 .title-block {
 
 }
-.title-line span {
-    display: inline-block;
+.title-block span {
+    display: block;
     height: 4px;
     margin: 0 4px;
     padding: 0 4px;
     background-color: var(--theme-2);
+    font-size: 0;
+    max-width: 100px;
 }
 
 span.title-line {
@@ -25,44 +27,53 @@ span.line-left {
 
 
 /*  Forms
------------------------------------------------*/
-
-
-/*  Footer area
 ...............................*/
-.footer-area, .footer-area li a {
+
+
+
+/*  Footer
+...............................*/
+.footer-area, .footer-area li a, .footer address small {
     color: var(--text-footer);
 }
-
 .footer-area  {
     font-size: 14px;
 }
-
 .footer-area li a:hover {
     color: var(--text-footer-active);
 }
 
-/*  Copyright
-...............................*/
-.section-copy {
+.footer-area small, .section-copy {
     font-size: 13px;
+}
+
+.section-copy, .copy-text a {
     color: var(--text-copy);
 }
-.section-copy a {
+
+.footer-pay a, .copy-links a {
     color: var(--text-footer-active);
 }
-.section-copy a:hover {
+.footer-pay a:hover, .section-copy a:hover {
     color: var(--theme-3);
 }
+
+.footer-area address, .footer-area address a {
+    color: var(--theme-3);
+}
+.footer-area address a:hover {
+    color: var(--text-footer-active);
+}
+
 
 
 /* Invers
 ...............................*/
-.invers, .invers h1, .invers h2, .invers h3, .invers h4 {
-    
+.invers-main, 
+.invers h1, .invers h2, .invers h3, .invers h4,
+h1.invers-color, h2.invers-color, h3.invers-color, h4.invers-color {
+    color: var(--invers);
 }
-
-
 
 /*  TRANSITION
 ...............................*/

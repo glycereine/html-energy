@@ -4,9 +4,9 @@
 	<section class="footer-area">
 		<div class="container-fluid container-width">
 			<div class="row">
-				<div class="col-md item item-1">
+				<div class="col-md-3 item item-1">
 					<div class="navbar-footer">
-						<a class="navbar-brand" href="#">writingessay.help</a>
+						<a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
 					</div>
 					<div class="footer-pay">
 						<div class="img-pay">
@@ -16,7 +16,7 @@
 					</div>
 				</div>
 				<div class="col-md item item-2">
-					<h3>Услуги</h3>
+					<h4>Услуги</h4>
 					<ul>
 						<li><a href="#">Хостинг</a></li>
 						<li><a href="#">VDS</a></li>
@@ -25,7 +25,7 @@
 					</ul>
 				</div>
 				<div class="col-md item item-3">
-					<h3>Информация</h3>
+					<h4>Информация</h4>
 					<ul>
 						<li><a href="#">Способы оплаты</a></li>
 						<li><a href="#">Партнерам</a></li>
@@ -34,23 +34,25 @@
 					</ul>
 				</div>
 				<div class="col-md item item-4">
-					<h3>Поддержка</h3>
+					<h4>Поддержка</h4>
 					<ul>
 						<li><a href="#">База знаний</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Аптайм</a></li>
 					</ul>
 				</div>
-				<div class="col-md item item-5 text-center">
-					<h3>Контакты</h3>
-					<p>
-						<a href="phone:+380 99 316-44-89">+380 99 316-44-89</a><br>
-						<a href="phone:+7 960 107-44-94">+7 960 107-44-94</a><br>
-						<small>звоните c 9:00 до 18:00 (GMT+3)</small>
-					</p>
-					<p>
-						<a href="mailto:support@hosting.energy">support@hosting.energy</a>
-					</p>
+				<div class="col-md item item-5">
+					<h4>Контакты</h4>
+					<address>
+						<p>
+							<a href="phone:+380 99 316-44-89">+380 99 316-44-89</a><br>
+							<a href="phone:+7 960 107-44-94">+7 960 107-44-94</a><br>
+							<small>звоните c 9:00 до 18:00 (GMT+3)</small>
+						</p>
+						<p>
+							<a href="mailto:support@hosting.energy">support@hosting.energy</a>
+						</p>
+					</address>
 				</div>
 			</div>
 		</div>
