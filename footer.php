@@ -2,7 +2,7 @@
 <footer class="footer invers">     
  
 	<section class="footer-area">
-		<div class="container-fluid">
+		<div class="container-fluid container-width">
 			<div class="row">
 				<div class="col-md item item-1">
 					<div class="navbar-footer">
@@ -57,14 +57,13 @@
 	</section>
 
 	<section class="section-copy">
-		<div class="container-fluid">
+		<div class="container-fluid container-width">
 			<div class="row">
-				<div class="copy-text">
+				<div class="col copy-text">
 					&copy; Хостинг <a href="/">«Энергия»</a>, бывший <a href="#">TCPHost.net</a>, 
 					2012 - <?php print date("Y");?>
-					
 				</div>
-				<div class="copy-links">
+				<div class="col text-right copy-links">
 					<a href="#">Онлайн-чат</a>
 					<a href="#">Тикет-система в биллинге</a>
 				</div>

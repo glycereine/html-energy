@@ -1,0 +1,35 @@
+/*  Layout
+-----------------------------------------------*/
+
+.container-width {
+    margin: 0 auto;
+    max-width: var(--base-width);
+    position: relative;
+}
+
+
+.content {
+    padding: 80px 0;
+}
+.control-top {
+    margin-top: -80px;
+}
+.control-bott {
+    margin-bottom: -80px;
+}
+
+
+
+
+section {
+   
+}
+
+
+.block {
+    padding: 70px 0;
+}
+
+.block-mb {
+    margin-bottom: 60px;
+}

@@ -1,10 +1,10 @@
-/*  Bases
+/*  BASES
 ----------------------------------------------------------- */
 
 body {
     color: var(--main);
     background: var(--body-bg) url(../_images/bg.png) 50% 0;
-    font: 500 var(--fz-main)/1.75 'Inter', sans-serif;
+    font: 300 var(--fz-main)/1.75 'Inter', sans-serif;
 }
 
 

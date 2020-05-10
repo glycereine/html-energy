@@ -1,0 +1,74 @@
+/*  VARIABLES
+----------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+
+.test-ff {
+	font-family: 'Inter', serif;
+/*
+	Normal      400
+	Meidum      500
+	Semi-Bold   600
+	Bold        700
+	Extra-Bold  800
+	Black       900
+*/
+}
+
+
+:root {
+	/* @Layout  : */
+	--base-width          : 1800px;
+
+	/* @color names       : */
+	--color-white         : #fff;
+	--color-black         : #000;
+	
+	
+	/* @theme colors      : */
+	--theme-1             : #0064aa;
+	--theme-2             : #ea1f26;
+	--theme-3             : #f6901e;
+	
+	--text                : #626669;
+	--text-dk             : #1f252a;
+	
+	--title               : #1f252a;
+	
+	/* @extend color var  : */
+	--body-bg             : var(--color-white);
+	--invers              : var(--color-white);
+	
+	--main                : var(--text-dk);
+	--link                : var(--theme-1);
+	--hover               : var(--theme-2);
+	
+	--title-base          : var(--title);
+	--title-hero          : var(--title);
+	--title-section       : var(--title);
+	--title-page          : var(--title);
+	
+	/* @FF                : */
+	--Inter               : 'Inter', serif;
+	--main-font           : var(--Inter);
+	
+	/* @Font size         : */
+	--fz-main             : 16px;
+	--fz-h1               : 30px;
+	--fz-h2               : 25px;
+	--fz-h3               : 20px;
+	
+	/* @Footer bg colors  : */
+	--footer-area-bg      : #1f252a;
+	--footer-copy-bg      : #15191c;
+	
+	
+	/* @Footer text colors: */
+	--text-footer         : #9d9d9d;
+	--text-footer-active  : #66a2cc;
+	--text-copy           : #5d5d5d;
+	
+	
+
+	position: relative;
+}

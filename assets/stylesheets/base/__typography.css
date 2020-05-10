@@ -1,0 +1,71 @@
+/*  TYPOGRAPHY
+----------------------------------------------------------- */
+
+.title-block {
+
+}
+.title-line span {
+    display: inline-block;
+    height: 4px;
+    margin: 0 4px;
+    padding: 0 4px;
+    background-color: var(--theme-2);
+}
+
+span.title-line {
+
+}
+span.line-inner {
+
+}
+
+span.line-left {
+
+}
+
+
+/*  Forms
+-----------------------------------------------*/
+
+
+/*  Footer area
+...............................*/
+.footer-area, .footer-area li a {
+    color: var(--text-footer);
+}
+
+.footer-area  {
+    font-size: 14px;
+}
+
+.footer-area li a:hover {
+    color: var(--text-footer-active);
+}
+
+/*  Copyright
+...............................*/
+.section-copy {
+    font-size: 13px;
+    color: var(--text-copy);
+}
+.section-copy a {
+    color: var(--text-footer-active);
+}
+.section-copy a:hover {
+    color: var(--theme-3);
+}
+
+
+/* Invers
+...............................*/
+.invers, .invers h1, .invers h2, .invers h3, .invers h4 {
+    
+}
+
+
+
+/*  TRANSITION
+...............................*/
+a {
+    transition: all 200ms ease-in-out 0s;
+}

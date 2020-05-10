@@ -28,11 +28,7 @@
 	flex-direction: column;
     align-items: stretch;
 }
-@media (min-width: 768px) {
-	.navbar-expand-md .navbar-collapse  {
-		flex-basis: 100%;
-	}
-}
+
 .navbar-collapse.in {
 	overflow: inherit;
 }
