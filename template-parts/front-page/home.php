@@ -3,7 +3,7 @@
 		
 		<div class="section-title title-block title-center">
 			<h2>Выберите свой вариант</h2>
-			<span class="title-line line-left"><span class="line-inner"></span></span>
+			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
 		<style>
@@ -107,7 +107,7 @@
 		
 		<div class="section-title title-block title-center">
 			<h2 class="invers-custom">Выберите красивое имя своему сайту</h2>
-			<span class="title-line line-left"><span class="line-inner"></span></span>
+			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
 		<form class="form-sub">
@@ -135,7 +135,7 @@
 		
 		<div class="section-title title-block title-center">
 			<h2>Наши преимущества</h2>
-			<span class="title-line line-left"><span class="line-inner"></span></span>
+			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
 		<div class="row justify-content-center">
@@ -308,7 +308,7 @@
 
 
 <section class="section-why block">
-	<div class="container-fluid">
+	<div class="container-fluid container-width">
 		
 		<div class="row">
 			<div class="col-md-6">

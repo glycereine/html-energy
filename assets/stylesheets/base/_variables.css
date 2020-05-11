@@ -18,8 +18,9 @@
 
 :root {
 	/* @Layout  : */
-	--base-width          : 1800px;
-	--secondary-width     : 1491px;
+	--base-width          : 1830px;
+	--secondary-width     : 1521px;
+	--secondary-tertiary  : 914px;
 
 	/* @color names       : */
 	--color-white         : #fff;

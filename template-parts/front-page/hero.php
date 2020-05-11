@@ -1,5 +1,5 @@
-<section class="hero-section">
-	<div class="container-fluid">
+<section class="hero-section invers-color invers-parent">
+	<div class="container-fluid container-width-md">
 		<div class="hero-title title-block">
 			<h3><?php print $PAGE_TITLE;?></h3>
 			<h1>Предоставляет лучший недорогой хостинг сайтов</h1>

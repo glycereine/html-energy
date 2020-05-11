@@ -1,37 +1,78 @@
 /*  TYPOGRAPHY
 ----------------------------------------------------------- */
-
 .title-block {
-
+	margin-bottom: 30px;
+}
+.title-center {
+	text-align: center;
 }
 .title-block span {
-    display: block;
-    height: 4px;
-    margin: 0 4px;
-    padding: 0 4px;
-    background-color: var(--theme-2);
-    font-size: 0;
-    max-width: 100px;
+	position: relative;
+	display: block;
+	max-width: 100px;
+	height: 5px;
+	font-size: 0;
+	line-height: 0;
+	border-radius: 5px;
+}
+.title-center span.title-line {
+	margin: 0 auto;
 }
 
 span.title-line {
-
-}
-span.line-inner {
-
+	background-color: var(--theme-3);
 }
 
 span.line-left {
 
 }
 
+.title-block span:before, .title-block span:after {
+	position: absolute;
+	top: 0;
+	display: block;
+	height: 5px;
+	content: '';
+	border-radius: 5px;
+}
+
+span.title-line:before, span.title-line:after {
+	width: 10px;
+	background-color: var(--theme-3);
+}
+span.line-inner:before, span.line-inner:after {
+	width: 5px;
+	border-radius: 100%;
+	background-color: var(--theme-2);
+}
+span.title-line:before {
+	left: -15px;
+}
+span.title-line:after {
+	right: -15px;
+}
+span.line-inner:before {
+	left: -25px;
+}
+span.line-inner:after {
+	right: -25px;
+}
+
+span.line-left:before, 
+span.line-left span.line-inner:before {
+	display: none;
+}
+
+
+
+
 /*  Content Section Elements
 ...............................*/
 .pricing-plan h3 {
-    border-radius: var(--bd-rad-base);
-    padding: 12px;
-    background-color: var(--color-lg-gray);
-    margin-bottom: 27px;
+	border-radius: var(--bd-rad-base);
+	padding: 12px;
+	background-color: var(--color-lg-gray);
+	margin-bottom: 27px;
 }
 
 
@@ -43,35 +84,35 @@ span.line-left {
 /*  Footer
 ...............................*/
 .footer-area, .footer-area li a, .footer address small {
-    color: var(--text-footer);
+	color: var(--text-footer);
 }
 .footer-area  {
-    font-size: 14px;
+	font-size: 14px;
 }
 .footer-area li a:hover {
-    color: var(--text-footer-active);
+	color: var(--text-footer-active);
 }
 
 .footer-area small, .section-copy {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .section-copy, .copy-text a {
-    color: var(--text-copy);
+	color: var(--text-copy);
 }
 
 .footer-pay a, .copy-links a {
-    color: var(--text-footer-active);
+	color: var(--text-footer-active);
 }
 .footer-pay a:hover, .section-copy a:hover {
-    color: var(--theme-3);
+	color: var(--theme-3);
 }
 
 .footer-area address, .footer-area address a {
-    color: var(--theme-3);
+	color: var(--theme-3);
 }
 .footer-area address a:hover {
-    color: var(--text-footer-active);
+	color: var(--text-footer-active);
 }
 
 
@@ -81,11 +122,11 @@ span.line-left {
 .invers-color, 
 .invers-parent h1, .invers-parent h2, .invers-parent h3, .invers-parent h4,
 h1.invers-custom, h2.invers-custom, h3.invers-custom, h4.invers-custom {
-    color: var(--invers);
+	color: var(--invers);
 }
 
 /*  TRANSITION
 ...............................*/
 a {
-    transition: all 200ms ease-in-out 0s;
+	transition: all 200ms ease-in-out 0s;
 }

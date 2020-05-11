@@ -9,6 +9,11 @@
     max-width: var(--secondary-width);
 }
 
+.container-width-sm {
+    max-width: var(--secondary-tertiary);
+}
+
+
 
 
 .content {
@@ -30,7 +35,8 @@ section {
 
 
 .block {
-    padding: 93px 0 100px;
+   padding-top: 93px;
+   padding-bottom: 100px;
 }
 
 .block-mb {
