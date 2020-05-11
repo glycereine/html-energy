@@ -23,7 +23,10 @@
 
 	/* @color names       : */
 	--color-white         : #fff;
+	--color-lg-gray       : #f5f5f5;
+	--color-lg-gray2      : #f7f7f7;
 	--color-black         : #000;
+	--color-lg-blue       : #e0ecf5;
 	
 	
 	/* @theme colors      : */
@@ -70,6 +73,12 @@
 	--text-footer         : #9d9d9d;
 	--text-footer-active  : #66a2cc;
 	--text-copy           : #5d5d5d;
+
+	/* @Border: */
+	--bd-rad-base         : 20px;
+
+	--bd--base            : 1px solid var(--color-lg-gray);
+	--bd--base2           : 1px solid var(--color-lg-gray2);
 	
 	
 

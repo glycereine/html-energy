@@ -31,14 +31,21 @@
 }
 
 
-.content-middle {
+.element-va-md {
     position: relative;
+    margin-top: 50% !important;
     transform: translateY(-50%);
-    vertical-align: middle;
-    top: 50%;
-    width: 15px;
-    height: 50px;
 }
+
+
+
+.bd-base {
+    border: var(--bd--base);
+}
+.bd-base2 {
+    border: var(--bd--base2);
+}
+
 
 @media only screen and (min-width: 768px) {
     .fleft-sm {

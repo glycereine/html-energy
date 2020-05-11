@@ -25,6 +25,15 @@ span.line-left {
 
 }
 
+/*  Content Section Elements
+...............................*/
+.pricing-plan h3 {
+    border-radius: var(--bd-rad-base);
+    padding: 12px;
+    background-color: var(--color-lg-gray);
+    margin-bottom: 27px;
+}
+
 
 /*  Forms
 ...............................*/
