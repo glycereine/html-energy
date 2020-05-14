@@ -19,11 +19,32 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+
+
 .hero-section h1 {
     letter-spacing: -.4px;
 }
 
+.hero-title {
+    margin-bottom: 47px;
+    padding: 43px;
+}
 
+
+.hero-section p {
+    margin-bottom: 26px;
+    line-height: 1.5;
+}
+.hero-section p:last-child {
+    margin-bottom: 0;
+}
+
+.hero-section .col-md:last-child {
+    align-self: flex-end;
+}
+.hero-section .btn-wrap .btn-main {
+    margin-right: 30px;
+}
 
 /* 
 ...............................*/
@@ -46,18 +67,27 @@
 .pricing-plan .price {
     margin-bottom: 27px;
 }
-.pricing-plan ul.list-plan {
-    padding: 28px 22px;
-    margin-bottom: 27px;
-    border-radius: var(--bd-rad-base);
-    border: var(--bd-base);
-}
+
+
 .pricing-plan .description {
     margin-bottom: 27px;
+    font-size: var(--fz-md);
+    line-height: 1.6;
+    color: var(--text-lg);
 }
 .pricing-plan .btn-wrap  {
 
 }
+
+ul.list-plan {
+    
+}
+
+ul.list-plan li {
+    
+}
+
+
 
 
 /* Наши преимущества
@@ -120,17 +150,41 @@
     background-color: var(--body-bg);
 }
 
+
 .block-news data {
     height: 30px;
     display: inline-block;
-    background-color: var(--theme-3);
-    border-radius: 15px;
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--invers);
+    border-radius: calc(var(--bd-rad-base) - 5px);
     padding: 0 14px;
-    line-height: 30px;
     margin-bottom: 24px;
+}
+
+.block-news .description {
+    margin-bottom: 24px;
+    height: 88px;
+    overflow: hidden;
+    position: relative;
+}
+.block-news .description:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(0deg, rgba(255,255,255,1)10%, rgba(255,255,255,0.4)60%);
+}
+
+.block-news p {
+    margin-bottom: 22px;
+}
+.block-news p:last-child {
+    margin-bottom: 0;
+}
+
+
+.block-news a.more {
+    float: right;
+    clear: both;
 }
 
 

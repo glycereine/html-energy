@@ -43,8 +43,16 @@
     border: var(--bd--base);
 }
 .bd-base2 {
-    border: var(--bd--base2);
+    border: var(--bd-base2);
 }
+
+
+.block-news:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
 
 
 @media only screen and (min-width: 768px) {

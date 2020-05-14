@@ -1,6 +1,73 @@
 /*  Blocks / modules / components
 -----------------------------------------------*/
 
+/*  Title line
+...............................*/
+.title-block {
+	margin-bottom: 70px;
+}
+
+.title-block h1,
+.title-block h2,
+.title-block h3 {
+	margin-bottom: 31px;
+}
+
+
+.title-center {
+	text-align: center;
+}
+.title-block span {
+	position: relative;
+	display: block;
+	max-width: 100px;
+	height: 5px;
+	font-size: 0;
+	line-height: 0;
+	border-radius: 5px;
+}
+.title-center span.title-line {
+	margin: 0 auto;
+}
+span.title-line {
+	background-color: var(--theme-3);
+}
+
+.title-block span:before, .title-block span:after {
+	position: absolute;
+	top: 0;
+	display: block;
+	height: 5px;
+	content: '';
+	border-radius: 5px;
+}
+span.title-line:before, span.title-line:after {
+	width: 10px;
+	background-color: var(--theme-3);
+}
+span.line-inner:before, span.line-inner:after {
+	width: 5px;
+	border-radius: 100%;
+	background-color: var(--theme-2);
+}
+span.title-line:before { left: -15px; }
+span.title-line:after { right: -15px; }
+span.line-inner:before { left: -25px; }
+span.line-inner:after { right: -25px; }
+
+span.line-left:before, 
+span.line-left span.line-inner:before {
+	display: none;
+}
+
+span.line-invers,
+span.line-invers:before, span.line-invers:after,
+span.line-invers span:before, span.line-invers span:after {
+	background-color: var(--invers);
+}
+
+
+
 
 
 /* Block styles
@@ -10,105 +77,147 @@
 }
 .block-rad,
 .block-style-base {
-    border-radius: var(--bd-rad-base);
+	border-radius: var(--bd-rad-base);
 }
 .block-pd {
-    padding: 28px;
+	padding: 28px;
 }
 .block-shadow,
 .block-style-base {
-    box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
 }
 
 
 
 /*  Buttons
 ...............................*/
-.btn {
-    position: relative;
-    min-width: 130px;
-    min-height: 35px;
-    padding: 1px 5px 0;
+
+
+.btn-main, .btn-border {
+	user-select: none;
     text-align: center;
-    white-space: inherit;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 33px;
-    font-size: 14px;
-    box-shadow: 0 0 10px 0 rgba(45, 34, 79, 0.34);
-    line-height: 34px;
-    letter-spacing: 1px;
-    background-color: var(--theme-1);
-    border: 0;
-    z-index: 1;
+    vertical-align: middle;
     cursor: pointer;
 
+	min-width: 180px;
+	min-height: 50px;
+	padding: 16px 45px 15px;
+	display: inline-block;
+	border: 2px solid transparent;
+	border-radius: calc(var(--bd-rad-base) + 5px);
 }
-.btn:after {
-    content: '';
-    border-radius: 33px;
-    z-index: -1;
-    position: absolute;
-    left: 0; right: 0; top: 0; bottom: 0;
-    background-color: var(--theme-1);
+
+.btn-main {
+	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+	background-color: var(--theme-2);
+	background: linear-gradient(90deg, #e55e29, var(--theme-2));
 }
-.btn:hover, .btn:focus {
-    text-decoration: none;
-    color: #fff;
-    background-color: #563b92;
+
+
+
+
+
+.btn-main:hover, .btn:focus {
+	text-decoration: none;
 } 
-.btn:hover:after {
-    opacity: 0;
+.btn-main:hover {
+	background-color: var(--theme-2);
 }
 
-.btn-invers:not(:hover) {
-    background: transparent;
-    box-shadow: inset 0 0 0 1px #77aff4;
+
+.btn-bd-theme-1 {
+	border-color: var(--theme-1);
 }
-.btn-invers:after {
-    opacity: 0;
+.btn-bd-theme-2 {
+	border-color: var(--theme-2);
 }
-.btn-invers:hover, .btn-invers:focus {
-    box-shadow: 0 0 10px 0 rgba(45, 34, 79, 0.34);
+.btn-bd-theme-3 {
+	border-color: var(--theme-3);
 }
 
-.btn-border {
-    min-width: 147px;
-    min-height: 37px;
-    line-height: 32px;
-    background-color: var(--theme-1);
-    border: 2px solid #e3e6e9;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    color: #c8c8c8;
+.btn-bd-theme-1:hover {
+	background-color: var(--theme-1);
 }
+.btn-bd-theme-2:hover {
+	background-color: var(--theme-2);
+}
+.btn-bd-theme-3:hover {
+	background-color: var(--theme-3);
+}
+
+
+.hero-section .btn-main, .hero-section .btn-border {
+	min-width: 220px;
+}
+.hero-section .btn {
+	margin-right: 30px;
+}
+.hero-section .btn-border {
+	border-color: var(--invers);
+	min-width: 220px;
+}
+
 
 .btn-wide {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 }
 
 
 /*  SOCIAL LINKS
 ...............................*/
 .list-social {
-    display: inline-block;
+	display: inline-block;
 }
 
 .list-social>li {
-    padding: 0 7px;
+	padding: 0 7px;
 }
 .list-social>li>a, .link-follow em {
-    display: inline-block;
-    width: 33px;
-    height: 33px;
-    text-align: center;
-    line-height: 34px;
-    border-radius: 5px;
-    font-size: 26px;
-    z-index: 1;
+	display: inline-block;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 5px;
+	font-size: 26px;
+	z-index: 1;
 }
 .list-social>li>a:hover {
-    color: var(--theme-1);
+	color: var(--theme-1);
 }
+
+
+/*  List ico
+...............................*/
+
+.list-style {
+	border-radius: var(--bd-rad-base);
+    border: var(--bd-base);
+    border-width: 2px;
+	padding: 28px 22px;
+}
+
+dl.list-plan {
+    position: relative;
+}
+dl.list-plan dt {
+	position: absolute;
+	margin-top: -5px;
+}
+dl.list-plan dd {
+    font-size: var(--fz-md);
+    line-height: 1.42;
+	padding-left: 14px;
+	margin-bottom: 16px;
+}
+
+dl.list-plan svg.svg-ico {
+	height: 11px;
+	width: 7px;
+}
+
+.pricing-plan dl.list-plan {
+	
+}
+

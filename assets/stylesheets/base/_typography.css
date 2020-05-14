@@ -1,69 +1,60 @@
 /*  TYPOGRAPHY
+	font -weight, -size, -style; line-height; text -align, -transform; base indents
 ----------------------------------------------------------- */
-.title-block {
-	margin-bottom: 30px;
+
+
+/* Buttons
+...............................*/
+.btn-main, .btn-border {
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 1;
+	text-transform: uppercase;
 }
-.title-center {
-	text-align: center;
+.btn-bd-theme-1 {
+	color: var(--theme-1);
 }
-.title-block span {
-	position: relative;
-	display: block;
-	max-width: 100px;
-	height: 5px;
-	font-size: 0;
-	line-height: 0;
-	border-radius: 5px;
+.btn-bd-theme-2 {
+	color: var(--theme-2);
 }
-.title-center span.title-line {
-	margin: 0 auto;
+.btn-bd-theme-3 {
+	color: var(--theme-3);
 }
 
-span.title-line {
-	background-color: var(--theme-3);
+.btn-main, .btn-main:hover,
+.hero-section .btn-border, .btn-border:hover {
+	color: var(--invers);
 }
 
-span.line-left {
-
-}
-
-.title-block span:before, .title-block span:after {
-	position: absolute;
-	top: 0;
-	display: block;
-	height: 5px;
-	content: '';
-	border-radius: 5px;
-}
-
-span.title-line:before, span.title-line:after {
-	width: 10px;
-	background-color: var(--theme-3);
-}
-span.line-inner:before, span.line-inner:after {
-	width: 5px;
-	border-radius: 100%;
-	background-color: var(--theme-2);
-}
-span.title-line:before {
-	left: -15px;
-}
-span.title-line:after {
-	right: -15px;
-}
-span.line-inner:before {
-	left: -25px;
-}
-span.line-inner:after {
-	right: -25px;
-}
-
-span.line-left:before, 
-span.line-left span.line-inner:before {
-	display: none;
+.hero-section .btn-border:hover {
+	color: var(--main);
+	background-color: var(--invers);
 }
 
 
+/*
+...............................*/
+.block-news p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+}
+.block-news data {
+    color: var(--invers);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: var(--theme-3);
+}
+.block-news a.more {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--theme-1);
+}
+
+.block-news a.more:hover {
+	color: var(--theme-2);
+}
 
 
 /*  Content Section Elements
@@ -121,9 +112,23 @@ span.line-left span.line-inner:before {
 ...............................*/
 .invers-color, 
 .invers-parent h1, .invers-parent h2, .invers-parent h3, .invers-parent h4,
-h1.invers-custom, h2.invers-custom, h3.invers-custom, h4.invers-custom {
+
+.invers-current,
+a.invers-current, p.invers-current,
+h1.invers-current, h2.invers-current, h3.invers-current, h4.invers-current {
 	color: var(--invers);
 }
+
+
+
+/*  SVG fill
+...............................*/
+.ico-theme-1 {fill: var(--theme-1);}
+.ico-theme-2 {fill: var(--theme-2);}
+.ico-theme-3 {fill: var(--theme-3);}
+
+
+
 
 /*  TRANSITION
 ...............................*/

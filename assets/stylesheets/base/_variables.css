@@ -26,8 +26,10 @@
 	--color-white         : #fff;
 	--color-lg-gray       : #f5f5f5;
 	--color-lg-gray2      : #f7f7f7;
-	--color-black         : #000;
 	--color-lg-blue       : #e0ecf5;
+	--color-black         : #000;
+	--color-dk         	  : #1f252a;
+	--color-dk-gray       : #626669;
 	
 	
 	/* @theme colors      : */
@@ -35,11 +37,11 @@
 	--theme-2             : #ea1f26;
 	--theme-3             : #f6901e;
 	
-	--text                : #626669;
-	--text-dk             : #1f252a;
+	--text-lg             : var(--color-dk-gray);
+	--text-dk             : var(--color-dk);
 	--text-dk-rgb 		  : 31, 37, 42;
 	
-	--title               : #1f252a;
+	--title               : var(--color-dk);;
 	
 	/* @extend color var  : */
 	--body-bg             : var(--color-white);
@@ -59,14 +61,23 @@
 	--main-font           : var(--Inter);
 	
 	/* @Font size         : */
-	--fz-main             : 16px;
+	--fz-base             : 16px;
+	
+	--fz-md               : 14px;
+	--fz-sm               : 13px;
+
 	--fz-h1               : 58px;
 	--fz-h2               : 36px;
 	--fz-h3               : 20px;
 	--fz-h4               : 20px;
+
+	/* :placeholder */
+
+	--color-placeholder   : var(--text-lg);
+	--font-placeholder    : 300 var(--fz-md )/1.6 var(--Inter);
 	
 	/* @Footer bg colors  : */
-	--footer-area-bg      : #1f252a;
+	--footer-area-bg      : var(--color-dk);
 	--footer-copy-bg      : #15191c;
 	
 	
@@ -78,8 +89,8 @@
 	/* @Border: */
 	--bd-rad-base         : 20px;
 
-	--bd--base            : 1px solid var(--color-lg-gray);
-	--bd--base2           : 1px solid var(--color-lg-gray2);
+	--bd-base             : 1px solid var(--color-lg-gray);
+	--bd-base2            : 1px solid var(--color-lg-gray2);
 	
 	
 

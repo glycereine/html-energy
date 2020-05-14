@@ -1,20 +1,33 @@
 /* Header position
 ...............................*/
 @media only screen and (min-width: 768px) {
-    .header-fixed {
+    .header-fixed-sm {
         position: fixed;
         z-index: 1000;
         top: 0;
         left: 0;
         width: 100%;
     }
-    .header-absolute {
+    .header-absolute-sm {
         position: absolute;
         z-index: 1000;
         top: 0;
         left: 0;
         width: 100%;
     }
+}
+
+
+/* Sticky
+...............................*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.sticky ~ .hero-section {
+    padding-top: 295px;
 }
 
 

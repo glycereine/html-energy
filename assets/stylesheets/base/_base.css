@@ -1,11 +1,17 @@
 /*  BASES
 ----------------------------------------------------------- */
 
+html {
+    /*for easy(smooth) scroll content by click to bottom ( hero section)*/
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--main);
     background-color: var(--body-bg);
-    font: 300 var(--fz-main)/1.75 'Inter', sans-serif;
+    font: 300 var(--fz-base)/1.75 'Inter', sans-serif;
 }
+
 
 
 p {
@@ -29,11 +35,9 @@ img {
     height: auto;
 }
 
-em {  }
-
 hr {
-    margin: 54px 0 65px;
-    border-top: 2px solid #eeedec;
+    margin: 40px 0;
+    border-top: 2px solid var(--theme-3);
 }
 
 strong {
@@ -65,6 +69,8 @@ h2 {
 }
 h3 {
     font-size: var(--fz-h3);
+    line-height: 1.5;
+    font-weight: 500;
 }
 h4 {
     font-size: var(--fz-h4);
@@ -95,14 +101,14 @@ input[type=checkbox], input[type=radio] {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #8d877e;
-    font: 13px/2 'Inter', serif;
+    color: var(--color-placeholder);
+    font: var(--font-placeholder);
 }
 .form-control::-moz-placeholder {
-    color: #8d877e;
-    font: 13px/2 'Inter', serif;
+    color: var(--color-placeholder);
+    font: var(--font-placeholder);
 }
 .form-control:-ms-input-placeholder {
-    color: #8d877e;
-    font: 13px/2 'Inter', serif;
+    color: var(--color-placeholder);
+    font: var(--font-placeholder);
 }
