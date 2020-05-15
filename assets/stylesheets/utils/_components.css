@@ -108,12 +108,14 @@ span.line-invers span:before, span.line-invers span:after {
 }
 
 .btn-main {
-	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
 	background-color: var(--theme-2);
 	background: linear-gradient(90deg, #e55e29, var(--theme-2));
 }
 
 
+.hero-section .btn-main {
+	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+}
 
 
 

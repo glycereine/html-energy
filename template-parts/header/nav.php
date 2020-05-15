@@ -5,7 +5,7 @@ data-target="#navbarsNav" aria-controls="navbarsNav"
 aria-expanded="false" 
 aria-label="Toggle navigation"></button>
 			
-<div class="collapse navbar-collapse" id="navbarsNav">
+<div class="col-md-9 collapse navbar-collapse" id="navbarsNav">
 	
 	<ul class="navbar-nav navbar-top">
 		<li class="nav-lang">

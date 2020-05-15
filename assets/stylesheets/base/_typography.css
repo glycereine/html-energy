@@ -70,6 +70,28 @@
 /*  Forms
 ...............................*/
 
+.form-control, .form-control:focus {
+    color: var(--text-dk);
+    box-shadow: none;
+}
+
+.form-control {
+    font: 300 var(--fz-md)/1.7 var(--font-placeholder);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: var(--text-lg);
+    font: 300 var(--fz-md)/1.7 var(--font-placeholder);
+}
+.form-control::-moz-placeholder {
+    color: var(--text-lg);
+    font: 300 var(--fz-md)/1.7 var(--font-placeholder);
+}
+.form-control:-ms-input-placeholder {
+   color: var(--text-lg);
+   font: 300 var(--fz-md)/1.7 var(--font-placeholder);
+}
+
 
 
 /*  Footer

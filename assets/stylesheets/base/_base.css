@@ -86,9 +86,7 @@ h6 {
 /*  Forms
 ...............................*/
 label {
-    font-weight: 400;
-    margin-bottom: 6px;
-    font-size: 16px;
+   
 }
 
 select {
@@ -100,15 +98,3 @@ input[type=checkbox], input[type=radio] {
     margin-top: 7px;
 }
 
-.form-control::-webkit-input-placeholder {
-    color: var(--color-placeholder);
-    font: var(--font-placeholder);
-}
-.form-control::-moz-placeholder {
-    color: var(--color-placeholder);
-    font: var(--font-placeholder);
-}
-.form-control:-ms-input-placeholder {
-    color: var(--color-placeholder);
-    font: var(--font-placeholder);
-}

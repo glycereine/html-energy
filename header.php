@@ -2,11 +2,11 @@
 <?php include ("inc/meta.php");?>
 
 <header class="header" id="header">
-	<div class="container-fluid">
+	<div class="container-fluid container-width">
 
 		<nav class="navbar navbar-expand-md">
 
-			<div class="navbar-header">
+			<div class="navbar-header col-md">
 				<a class="navbar-brand" href="/" alt="Energy">
 					<img src="assets/images/logo.png" alt="">
 				</a>

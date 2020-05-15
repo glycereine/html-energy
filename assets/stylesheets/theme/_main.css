@@ -14,77 +14,81 @@
 				url(../../images/hero.jpg) 50% 0 no-repeat;
 }
 .hero-section h3 {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
 }
 
 
 .hero-section h1 {
-    letter-spacing: -.4px;
+	letter-spacing: -.4px;
 }
 
 .hero-title {
-    margin-bottom: 47px;
-    padding: 43px;
+	margin-bottom: 47px;
+	padding: 43px;
 }
 
 
 .hero-section p {
-    margin-bottom: 26px;
-    line-height: 1.5;
+	margin-bottom: 26px;
+	line-height: 1.5;
 }
 .hero-section p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .hero-section .col-md:last-child {
-    align-self: flex-end;
+	align-self: flex-end;
 }
 .hero-section .btn-wrap .btn-main {
-    margin-right: 30px;
+	margin-right: 30px;
 }
 
 /* 
 ...............................*/
 .section-pricing {
-    padding-bottom: 155px;
+	padding-bottom: 155px;
 }
 
 .pricing-col {
-    max-width: 427px;
+	max-width: 427px;
 }
 .pricing-plan {
-    padding: 53px 52px 52px;
+	padding: 53px 52px 52px;
 }
 .pricing-plan .ico {
-    max-width: 60px;
-    margin: 0 auto;
-    margin-bottom: 33px;
+	margin-bottom: 33px;
 }
+
+.pricing-plan .svg-ico {
+	max-width: 60px;
+	height: 60px;
+}
+
 .pricing-plan h3 {  }
 .pricing-plan .price {
-    margin-bottom: 27px;
+	margin-bottom: 27px;
 }
 
 
 .pricing-plan .description {
-    margin-bottom: 27px;
-    font-size: var(--fz-md);
-    line-height: 1.6;
-    color: var(--text-lg);
+	margin-bottom: 27px;
+	font-size: var(--fz-md);
+	line-height: 1.6;
+	color: var(--text-lg);
 }
 .pricing-plan .btn-wrap  {
 
 }
 
 ul.list-plan {
-    
+	
 }
 
 ul.list-plan li {
-    
+	
 }
 
 
@@ -93,39 +97,62 @@ ul.list-plan li {
 /* Наши преимущества
 ...............................*/
 .section-advantages {
+	
+}
+
+.section-advantages .item {
+	margin-bottom: 31px;
 }
 
 .advantages-block {
-    padding: 22px 30px 27px 38px;
-    margin-bottom: 31px;
+	position: relative;
+	padding: 22px 30px 27px 38px;
+	background-color: var(--invers);
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	height: 100%;
 }
 .advantages-block .ico {
-    margin: 6px 12px -15px 31px;
-    position: relative;
-    z-index: 1;
-    width: 69px;
-    vertical-align: middle;
-    box-shadow: 0 0 0 10px var(--invers);
-    height: 69px;
-    display: inline-block;
-    border-radius: 100%;
-    background-color: var(--color-lg-blue);
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+	width: 69px;
+	top: 15px;
+	height: 69px;
+	margin: 0px 12px 1px 31px;
+	border-radius: 100%;
+	background-color: var(--color-lg-blue);
+	box-shadow: 0 0 0 10px var(--invers);
 }
 
-.advantages-block .ico svg {
-    max-width: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.advantages-block .svg-ico {
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50%;
+	transform: translateY(-50%);
 }
 
 .advantages-block h3 {
-    display: inline-block;
+	font-weight: 700;
+	margin: 0;
+	min-height: 52px;
+	line-height: 1.1;
+	display: flex;
+	padding: 3px 0 5px 113px;
+	align-items: center;
 }
 
 .advantages-block .description {
-    padding: 42px 30px 30px;
+	padding: 42px 30px 30px;
     background-color: var(--color-lg-gray);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%
 }
 
 
@@ -133,67 +160,71 @@ ul.list-plan li {
 /* Выберите красивое имя своему сайту
 ...............................*/
 .section-name {
-    min-height: 381px;
-    padding: 93px 0 100px;
-    background: var(--theme-3) url(../../images/section-spaces.jpg) 50%/cover no-repeat;
+	min-height: 381px;
+	padding: 93px 0 100px;
+	background: var(--theme-3) url(../../images/section-spaces.jpg) 50%/cover no-repeat;
 }
+.section-name ul {
+	
+}
+
 
 
 /* Новости
 ...............................*/
 .section-news {
-    padding: 125px 0 112px;
-    background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
+	padding: 125px 0 112px;
+	background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
 }
 .block-news {
-    padding: 28px 37px 27px 27px;
-    background-color: var(--body-bg);
+	padding: 28px 37px 27px 27px;
+	background-color: var(--body-bg);
 }
 
 
 .block-news data {
-    height: 30px;
-    display: inline-block;
-    border-radius: calc(var(--bd-rad-base) - 5px);
-    padding: 0 14px;
-    margin-bottom: 24px;
+	height: 30px;
+	display: inline-block;
+	border-radius: calc(var(--bd-rad-base) - 5px);
+	padding: 0 14px;
+	margin-bottom: 24px;
 }
 
 .block-news .description {
-    margin-bottom: 24px;
-    height: 88px;
-    overflow: hidden;
-    position: relative;
+	margin-bottom: 24px;
+	height: 88px;
+	overflow: hidden;
+	position: relative;
 }
 .block-news .description:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background: linear-gradient(0deg, rgba(255,255,255,1)10%, rgba(255,255,255,0.4)60%);
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(0deg, rgba(255,255,255,1)10%, rgba(255,255,255,0.4)60%);
 }
 
 .block-news p {
-    margin-bottom: 22px;
+	margin-bottom: 22px;
 }
 .block-news p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 
 .block-news a.more {
-    float: right;
-    clear: both;
+	float: right;
+	clear: both;
 }
 
 
 /* Заголовок блока
 ...............................*/
 .section-block {
-    min-height: 381px;
-    padding: 93px 0 100px;
-    background: var(--theme-3) url(../../images/section-block.jpg) 50%/cover no-repeat;
+	min-height: 381px;
+	padding: 93px 0 100px;
+	background: var(--theme-3) url(../../images/section-block.jpg) 50%/cover no-repeat;
 }
 
 
@@ -214,15 +245,15 @@ ul.list-plan li {
 }
 
 .img-pay {
-    margin: 24px 0 11px 0;
+	margin: 24px 0 11px 0;
 }
 
 .footer-area h3 {
-    margin-top: 27px;
-    margin-bottom: 23px;
+	margin-top: 27px;
+	margin-bottom: 23px;
 }
 .footer-area ul {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .footer-area ul li:not(:last-child) {
 	margin-bottom: 7px;
@@ -232,13 +263,13 @@ ul.list-plan li {
 }
 
 .footer-area address {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 .footer-area p {
-    margin-bottom: 17px;
+	margin-bottom: 17px;
 }
 .footer-area p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 
