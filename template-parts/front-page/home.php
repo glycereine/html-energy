@@ -201,7 +201,7 @@
 </section><!--// .section-pricing -->
 
 
-<section class="block section-name invers-color invers-parent  text-center">
+<section class="block section-name invers-color invers-parent text-center">
 	<div class="container-fluid container-width-sm">
 		
 		<div class="section-title title-block title-center">
@@ -209,7 +209,7 @@
 			<span class="title-line line-invers"><span class="line-inner"></span></span>
 		</div>
 
-		<form class="form-sub">
+		<form class="form-name">
 			<div class="form-group">
 				<input class="form-control" type="search" placeholder="Введите домен или слово" aria-label="Search">
 			</div>

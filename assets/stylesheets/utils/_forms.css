@@ -1,5 +1,5 @@
 
-/*  Forms base
+/*  Forms base reset
 -----------------------------------------------*/
 .form-control {
 	
@@ -15,7 +15,11 @@
 }
 
 
-/*  FORMS -checkbox style-
+
+/*  Forms Components
+-----------------------------------------------*/
+
+/*  - checkbox -
 ...............................*/
 .checkbox {
 	margin: 0 0 14px;
@@ -84,33 +88,41 @@
 }
 
 
+/*  - inline from-control  -
+...............................*/
+
+
+
+/*  Forms Components
+-----------------------------------------------*/
 /* Form: Subscribe
 ...............................*/
-form.form-sub {
+form.form-name {
 	position: relative;
 	margin: 0 77px;
 }
-form.form-sub  label {
+form.form-name  label {
 	
 }
-form.form-sub  .form-group {
+form.form-name  .form-group {
 	   margin-bottom: 30px;
 }
-form.form-sub .form-control {
+form.form-name .form-control {
 	height: 50px;
 	padding: 0 180px 0 21px;
 	border-radius: 25px;
 	background-color: #f6f6f6;
 	line-height: 1;
+	border: 0;
 }
 
-form.form-sub .btn-main {
+form.form-name .btn-main {
 	position: absolute;
 	top: 0;
 	right: 0;
 	min-width: 180px;
 	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.36);
 }
-form.form-sub .btn-main:hover {
+form.form-name .btn-main:hover {
 	
 }

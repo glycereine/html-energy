@@ -20,49 +20,12 @@
 		</div>
 
 		<div class="mosue-scroll-wrap">			
-			<a href="#to-content" class="mosue-scroll"></a>
+			<a href="#to-content" class="mosue-scroll">
+				<svg class="svg-ico">
+					<use xlink:href="#ico-mosue-scroll" />
+				</svg>
+			</a>
 		</div>
 
 	</div>
 </section>
-
-
-<style>
-	.mosue-scroll-wrap {
-		clear: both;
-		padding: 50px 0;
-	}
-
-	.mosue-scroll {
-		position: relative;
-		font-size: 0;
-		width: 0;
-		height: 0;
-		border-style: solid;
-		border-width: 8px 7px 0 7px;
-		border-color: var(--theme-3) transparent transparent transparent;
-
-	}
-	.mosue-scroll:before,.mosue-scroll:after {
-		position: absolute;
-	    
-	    content: '';
-	    background-color: #fff;
-	    border-radius: 100%;
-	   
-	}
-	.mosue-scroll:before {
-		top: -20px;
-	    left: -5px;
-
-	     width: 6px;
-	    height: 6px;
-	}
-	.mosue-scroll:after {
-		top: -30px;
-	    left: -5px;
-
-	     width: 4px;
-	    height: 4px;
-	}
-</style>

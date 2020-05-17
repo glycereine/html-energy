@@ -5,19 +5,21 @@ data-target="#navbarsNav" aria-controls="navbarsNav"
 aria-expanded="false" 
 aria-label="Toggle navigation"></button>
 			
-<div class="col-md-9 collapse navbar-collapse" id="navbarsNav">
+<div class="col-md-9 col-lg-8 collapse navbar-collapse" id="navbarsNav">
 	
 	<ul class="navbar-nav navbar-top">
 		<li class="nav-lang">
 			<div class="lang">
-				<a href="#">Ru</a>
+				<a class="active" href="#">Ru</a>
 				<a href="#">Eng</a>
 			</div>
 		</li>
 		<li class="nav-currency">
 			<div class="currency">
-				<span>Usd</span>
+				<span class="active">Usd</span>
+
 				<span>Грн</span>
+
 				<span>Руб</span>
 			</div>
 		</li>
@@ -31,15 +33,16 @@ aria-label="Toggle navigation"></button>
 		<li class="nav-login">
 			<div class="login">
 				<a href="#">личный Кабинет</a>
+				<div class="ico">
+					<svg class="svg-ico">
+						<use xlink:href="#ico-user" />
+					</svg>
+				</div>
 			</div>
 		</li>
 	</ul><!--// .navbar-top - Top Navigation -->
 
 	<ul class="navbar-nav navbar-main">
-		<li class="nav-item">
-			<a class="nav-link <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>" href="/">Home</a>
-		</li>
-
 		<li class="nav-item">
 			<a class="nav-link <?php if ($CURRENT_PAGE == "Hosting") {?>active<?php }?>" href="/hosting.php">Хостинг</a>
 		</li>

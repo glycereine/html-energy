@@ -82,17 +82,28 @@ span.line-invers span:before, span.line-invers span:after {
 .block-pd {
 	padding: 28px;
 }
+
+.shadow-base,
 .block-shadow,
 .block-style-base {
 	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
 }
 
 
+/* mosue-scroll
+...............................*/
+.mosue-scroll-wrap {
+    clear: both;
+        padding: 176px 0 159px;
+}
+.mosue-scroll-wrap .svg-ico {
+    display: inline-block;
+    fill: var(--theme-3);
+}
+
 
 /*  Buttons
 ...............................*/
-
-
 .btn-main, .btn-border {
 	user-select: none;
     text-align: center;
