@@ -80,7 +80,7 @@
 							<use xlink:href="#ico-servers-2" />
 						</svg>
 					</div>
-					<h3>Хостинг</h3>
+					<h3>VDS</h3>
 					<div class="price">от <strong>$0.45</strong> /месяц</div>
 					<dl class="list-plan list-style text-left">
 						<dt>
@@ -141,7 +141,7 @@
 							<use xlink:href="#ico-databse" />
 						</svg>
 					</div>
-					<h3>Хостинг</h3>
+					<h3>Додики</h3>
 					<div class="price">от <strong>$0.45</strong> /месяц</div>
 					<dl class="list-plan list-style text-left">
 						<dt>
@@ -215,7 +215,7 @@
 			</div>
 			<button class="btn-main" type="submit">Проверить</button>
 
-			<ul class="d-sm-flex justify-content-between">
+			<ul class="d-flex justify-content-center justify-content-md-between">
 				<li>.com  - <strong>$10</strong> </li>
 				<li>.me  - <strong>$3</strong></li>
 				<li>.com  - <strong>$10</strong> </li>
@@ -237,8 +237,8 @@
 			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-md-4 item">
+		<div class="row justify-content-center slick-base">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -251,7 +251,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 item">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -264,7 +264,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 item">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -277,7 +277,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 item">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -290,7 +290,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 item">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -303,7 +303,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 item">
+			<div class="col-md-6 col-lg-4 item">
 				<div class="advantages-block block-style-base">
 					<div class="ico text-center">
 						<svg class="svg-ico ico-theme-1">
@@ -330,8 +330,8 @@
 			<span class="title-line"><span class="line-inner"></span></span>
 		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-md-3">
+		<div class="row justify-content-center slick-base">
+			<div class="item col-md-6 col-lg-3">
 				<div class="block-news bd-base2 block-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Обновление MariaDB на сервере sofi.hosting.energy</a></h3>
@@ -343,7 +343,7 @@
 					<a href="#" class="more">Читать дальше </a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="item col-md-6 col-lg-3">
 				<div class="block-news bd-base2 block-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Сетевые проблемы roxy.hosting.energy</a></h3>
@@ -355,7 +355,7 @@
 					<a href="#" class="more">Читать дальше </a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="item col-md-6 col-lg-3">
 				<div class="block-news bd-base2 block-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Обновление MariaDB на сервере sofi.hosting.energy</a></h3>
@@ -367,7 +367,7 @@
 					<a href="#" class="more">Читать дальше </a>
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="item col-md-6 col-lg-3">
 				<div class="block-news bd-base2 block-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Скидка 60% на VDS + бекап в подарок</a></h3>
@@ -392,7 +392,7 @@
 			<span class="title-line line-invers"><span class="line-inner"></span></span>
 		</div>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
 		
 
 	</div>
@@ -403,7 +403,7 @@
 	<div class="container-fluid container-width">
 		
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6 mb-on-sm">
 				<div class="section-title title-block">
 					<h2>Почему мы?</h2>
 					<span class="title-line line-left"><span class="line-inner"></span></span>

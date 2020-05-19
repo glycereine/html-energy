@@ -1,0 +1,191 @@
+ /*  base
+----------------------------------------------------------- */
+
+@import url('base/_variables.css');
+
+@import url('base/_base.css');
+@import url('base/_typography.css');
+
+
+/*  util
+----------------------------------------------------------- */
+@import url('utils/_helpers.css');
+@import url('utils/_utilites.css');
+@import url('utils/_components.css');
+
+@import url('utils/_forms.css');
+
+
+/*  theme
+----------------------------------------------------------- */
+@import url('theme/_layout.css');
+
+@import url('theme/_main.css');
+@import url('theme/_nav.css');
+@import url('theme/_responsive.css');
+
+
+
+/*
+sass/
+|
+|– base/
+|   |- v1/
+|   |	|– _base.css		# reset base elements
+|   |	|– _typography.css	# FF, some indents, etc
+|   |	|– _colors.css		# colors (backgrounds of elements, borders, box-shadow,..)
+|   |	|– _state.css		# hovers, animations, transition
+|	|
+|   |- v2/
+|   |	|– _base.css		#
+|   |	|– _typography.css	# FF + colors
+|   |	|– _transition.css	# animations, transition
+|	|
+|   |- v3/
+|   |	|– _base.css		# 
+|   |	|– _theme.css		# FF + colors + hovers, animations, transition
+|	|
+|   |- v4/
+|   	|– _base.css		# 
+|   	|– _theme.css		# FF + colors
+|		|– _state.css		# hovers, animations, transition
+|
+|– helpers/
+|   |– _variables.css   	#
+|   |– _helpers.css   		#
+|   |– _utilites.css   		#
+|
+|– components/
+|   |– _components.css   	#
+|  	|  --carousel.css 		#
+|   |– --forms.css   		#
+|   |– --nav.css   			#
+|
+|– layout/
+|   |– _layout.css   		#
+|   |– --header.css   		#
+|   |– --footer.css   		#
+|   |– _responsive.css   	#
+|   
+|– pages/
+|   |– _main.css
+|   |– _page.css
+
+
+
+*/
+/*
+base
+--------------------
+	_base.css 			#  Все базовые теги, ресет стилей, базовые стили
+	_typography.css 	#  font styles (family, wight,style), line-height, indents, text styles (aligment,transport), etc
+						#  Кастомные стлили для хедингов, блоки и компонетнты -футер, -хедр, -навигация, -кнопки, прочее
+	..................
+	--colors.css 		# цвета всех элементов: текста, ссылок, кнопок, блоков, бэкграунды прочее
+	--animations.css     #  hovers ?, trasition,  @keyframe
+
+	..................
+
+	_themes.css 		# Внем общие стили: шрифты, состояние текста и цвета -текста, -теней, -бордеров, -бэкграунда
+						# ? или  объединяет файлы: _typography.css , --colors.css
+						# ? или  объединяет файлы: _typography.css , --colors.css, + _state.css
+
+	_state.css 			# Внем общие стили: ховеры, плавные эфеты перехода, анимация
+					    # ? или объединяет файлы: --colors.css, --hovers.css, --animations.css
+
+	..................
+
+	_themes.css
+		--typography.css
+		--colors.css
+
+	_state.css
+		--hovers.css
+		--animations.css (--transitions.css)
+
+
+components
+--------------------
+	_components.css 	#
+	--forms.css 		# Custom styles for Inputs, Select, textarea (возможно вынести индивидуальыне стили в "_components.css")
+	--buttons.css 		# Buttons
+	--carousel.css     	# Carousel
+	--navigation.css 	# Nav + @media Nav
+
+
+helpers (abstracts ?, utilites ?)
+--------------------
+	_variables.css      # Переменные :root базовые цвета, фоны, размеры шрифтов, прочие параметры
+	_helpers.css 		#
+	_utilites.css 		#
+
+layout
+--------------------
+	_layout.css 		#
+	_header.css 		#
+	_footer.css 		#
+
+	_responsive.css 	#
+
+
+pages (theme?)
+--------------------
+	_main.css 			#
+
+	_page.css 			#
+
+
+themes (может объединить с base ?)
+--------------------
+	_theme-base.css 	# Сыюда вынести все цвета и фоны: текстов, ссылок, тайтлов, тбэкгрануды: colors; background: -color, -image; box-shadow; border-color;
+
+*/
+
+
+/*
+
+sass/
+|
+|– abstracts/
+|   |– _variables.scss    # Sass Variables
+|   |– _functions.scss    # Sass Functions
+|   |– _mixins.scss       # Sass Mixins
+|   |– _placeholders.scss # Sass Placeholders
+|
+|– base/
+|   |– _reset.scss        # Reset/normalize
+|   |– _typography.scss   # Typography rules
+|   …                     # Etc.
+|
+|– components/
+|   |– _buttons.scss      # Buttons
+|   |– _carousel.scss     # Carousel
+|   |– _cover.scss        # Cover
+|   |– _dropdown.scss     # Dropdown
+|   …                     # Etc.
+|
+|– layout/
+|   |– _navigation.scss   # Navigation
+|   |– _grid.scss         # Grid system
+|   |– _header.scss       # Header
+|   |– _footer.scss       # Footer
+|   |– _sidebar.scss      # Sidebar
+|   |– _forms.scss        # Forms
+|   …                     # Etc.
+|
+|– pages/
+|   |– _home.scss         # Home specific styles
+|   |– _contact.scss      # Contact specific styles
+|   …                     # Etc.
+|
+|– themes/
+|   |– _theme.scss        # Default theme
+|   |– _admin.scss        # Admin theme
+|   …                     # Etc.
+|
+|– vendors/
+|   |– _bootstrap.scss    # Bootstrap
+|   |– _jquery-ui.scss    # jQuery UI
+|   …                     # Etc.
+|
+`– main.scss              # Main Sass file

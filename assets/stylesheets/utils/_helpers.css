@@ -1,42 +1,14 @@
 /*  HELPERS
 ----------------------------------------------------------- */
-
-.img-wide {
-    width: 100%;
-}
-
-.text-up {
-    text-transform: uppercase;
-}
-
-
 .overflow {
     overflow: hidden;
 }
 
-.img-border {
-    border: 5px solid #fff;
-}
-.img-round {
-    border-radius: 8px;
-}
-
-.fleft {
-    float: left;
-}
-
-
-.fright {
-    float: right;
-}
-
-
-.element-va-md {
+.translate-y-md {
     position: relative;
     margin-top: 50% !important;
     transform: translateY(-50%);
 }
-
 
 
 .bd-base {
@@ -53,18 +25,7 @@
     content: "";
 }
 
-
-
 @media only screen and (min-width: 768px) {
-    .fleft-sm {
-        float: left;
-    }
-    .fright-sm {
-        float: right;
-    }   
-    .va-m-sm {
-        vertical-align: middle;
-    }
     .text-right-sm {
         text-align: right;
     }
@@ -73,22 +34,6 @@
     }
 }
 @media only screen and (min-width: 992px) {
-    .fleft-md {
-        float: left;
-    }
-    .fright-md {
-        float: right;
-    }
-
-    .table-md {
-        display: table;
-        height: 100%;
-        width: 100%;
-    }
-
-    .va-m-md {
-        vertical-align: middle;
-    }
     .text-right-md {
         text-align: right;
     }

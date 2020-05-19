@@ -1,16 +1,48 @@
 /*  Blocks / modules / components
 -----------------------------------------------*/
 
+
+/*  Slick
+...............................*/
+.slick-slide {
+	outline: none;
+	display: flex;
+}
+
+.slick-dots {
+	bottom: 10px;
+}
+
+.slick-dots li button:before {
+	font-size: 15px;
+	    transition: all 200ms;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li.slick-active button:before {
+    color: var(--theme-1);
+}
+
+.slick-dots li:nth-child(2n) button:hover:before,
+.slick-dots li.slick-active:nth-child(2n) button:before {
+    color: var(--theme-2);
+}
+.slick-dots li:nth-child(3n) button:hover:before,
+.slick-dots li.slick-active:nth-child(3n) button:before {
+    color: var(--theme-3);
+}
+
+
+
 /*  Title line
 ...............................*/
 .title-block {
-	margin-bottom: 70px;
+	margin-bottom: 51px;
 }
-
 .title-block h1,
 .title-block h2,
 .title-block h3 {
-	margin-bottom: 31px;
+	margin-bottom: 26px;
 }
 
 
@@ -20,7 +52,7 @@
 .title-block span {
 	position: relative;
 	display: block;
-	max-width: 100px;
+	max-width: 70px;
 	height: 5px;
 	font-size: 0;
 	line-height: 0;
@@ -32,6 +64,7 @@
 span.title-line {
 	background-color: var(--theme-3);
 }
+
 
 .title-block span:before, .title-block span:after {
 	position: absolute;
@@ -67,6 +100,20 @@ span.line-invers span:before, span.line-invers span:after {
 }
 
 
+@media only screen and (min-width: 992px) {
+	span.line-left-sm:before, 
+	span.line-left-sm span.line-inner:before {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	span.line-left-sm {
+		margin: 0 auto;
+	}
+}
+
+
 
 
 
@@ -85,7 +132,8 @@ span.line-invers span:before, span.line-invers span:after {
 
 .shadow-base,
 .block-shadow,
-.block-style-base {
+.block-style-base,
+.block-news:hover {
 	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
 }
 
@@ -93,10 +141,12 @@ span.line-invers span:before, span.line-invers span:after {
 /* mosue-scroll
 ...............................*/
 .mosue-scroll-wrap {
-    clear: both;
-        padding: 176px 0 159px;
+    position: absolute;
+    bottom: 160px;
 }
 .mosue-scroll-wrap .svg-ico {
+	width: 14px;
+	height: 26px;
     display: inline-block;
     fill: var(--theme-3);
 }
@@ -109,32 +159,59 @@ span.line-invers span:before, span.line-invers span:after {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
+    letter-spacing: .7px;
 
 	min-width: 180px;
 	min-height: 50px;
-	padding: 16px 45px 15px;
 	display: inline-block;
-	border: 2px solid transparent;
 	border-radius: calc(var(--bd-rad-base) + 5px);
 }
 
 .btn-main {
+	position: relative;
+	z-index: 1;
 	background-color: var(--theme-2);
-	background: linear-gradient(90deg, #e55e29, var(--theme-2));
+	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.36);
+		transition: all 300ms;
 }
 
 
-.hero-section .btn-main {
-	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+.btn-main:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 30px;
+    right: 0;
+    left: 0;
+    background: linear-gradient(90deg, #f15d22 40% , var(--theme-2));
+    	transition: all 300ms;
 }
 
+
+a.btn-main {
+	padding: 18px 45px 16px;
+}
+button.btn-main {
+	padding: 16px 45px;
+}
+
+
+.btn-border {
+	border: 2px solid transparent;
+	padding: 16px 45px 15px;
+}
 
 
 .btn-main:hover, .btn:focus {
 	text-decoration: none;
 } 
 .btn-main:hover {
-	background-color: var(--theme-2);
+	background-color: #f15d22;
+}
+.btn-main:hover:after {
+	opacity: 0;
 }
 
 
@@ -159,15 +236,13 @@ span.line-invers span:before, span.line-invers span:after {
 }
 
 
-.hero-section .btn-main, .hero-section .btn-border {
-	min-width: 220px;
-}
-.hero-section .btn {
-	margin-right: 30px;
-}
 .hero-section .btn-border {
 	border-color: var(--invers);
-	min-width: 220px;
+}
+@media only screen and (min-width: 768px) {
+	.hero-section .btn-main, .hero-section .btn-border {
+		min-width: 220px;
+	}
 }
 
 
@@ -213,6 +288,7 @@ span.line-invers span:before, span.line-invers span:after {
 
 dl.list-plan {
     position: relative;
+    margin-bottom: 25px;
 }
 dl.list-plan dt {
 	position: absolute;
@@ -220,9 +296,11 @@ dl.list-plan dt {
 }
 dl.list-plan dd {
     font-size: var(--fz-md);
-    line-height: 1.42;
-	padding-left: 14px;
-	margin-bottom: 16px;
+    line-height: 1.43;
+    font-weight: 400;
+
+	padding-left: 12px;
+    margin-bottom: 10px;
 }
 
 dl.list-plan svg.svg-ico {

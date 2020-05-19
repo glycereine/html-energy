@@ -20,6 +20,17 @@
 
 /* Sticky
 ...............................*/
+html.noscroll {
+    overflow: hidden;
+}
+body.noscroll {
+    overflow: visible;
+    height: 100%;
+}
+
+
+/* Sticky
+...............................*/
 .sticky {
     position: fixed;
     top: 0;

@@ -13,15 +13,14 @@ body {
 }
 
 
-
 p {
     margin-bottom: 36px;
 }
 
-
 a, a:focus, button, button:focus {
     outline: none;
 }
+
 a {
     color: var(--main);
 }
@@ -74,12 +73,6 @@ h3 {
 }
 h4 {
     font-size: var(--fz-h4);
-}
-h5 {
-    
-}
-h6 {
-
 }
 
 

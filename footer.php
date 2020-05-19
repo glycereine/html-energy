@@ -4,7 +4,7 @@
 	<section class="footer-area">
 		<div class="container-fluid container-width">
 			<div class="row">
-				<div class="col-md-3 item item-1">
+				<div class="col-lg-3 item item-1">
 					<div class="navbar-footer">
 						<a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
 					</div>
@@ -15,7 +15,7 @@
 						<a href="#">Проверить аттестат</a>
 					</div>
 				</div>
-				<div class="col-md item item-2">
+				<div class="col-6 col-md item item-2">
 					<h4>Услуги</h4>
 					<ul>
 						<li><a href="#">Хостинг</a></li>
@@ -24,7 +24,7 @@
 						<li><a href="#">Место для бекапов</a></li>
 					</ul>
 				</div>
-				<div class="col-md item item-3">
+				<div class="col-6 col-md item item-3">
 					<h4>Информация</h4>
 					<ul>
 						<li><a href="#">Способы оплаты</a></li>
@@ -33,7 +33,7 @@
 						<li><a href="#">О Нас</a></li>
 					</ul>
 				</div>
-				<div class="col-md item item-4">
+				<div class="col-6 col-md item item-4">
 					<h4>Поддержка</h4>
 					<ul>
 						<li><a href="#">База знаний</a></li>
@@ -41,7 +41,7 @@
 						<li><a href="#">Аптайм</a></li>
 					</ul>
 				</div>
-				<div class="col-md item item-5">
+				<div class="col-6 col-md item item-5">
 					<h4>Контакты</h4>
 					<address>
 						<p>
@@ -61,11 +61,11 @@
 	<section class="section-copy">
 		<div class="container-fluid container-width">
 			<div class="row">
-				<div class="col copy-text">
+				<div class="col-lg copy-text">
 					&copy; Хостинг <a href="/">«Энергия»</a>, бывший <a href="#">TCPHost.net</a>, 
 					2012 - <?php print date("Y");?>
 				</div>
-				<div class="col text-right copy-links">
+				<div class="col-lg text-right-md copy-links">
 					<a href="#">Онлайн-чат</a>
 					<a href="#">Тикет-система в биллинге</a>
 				</div>

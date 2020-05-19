@@ -1,46 +1,53 @@
-
-
-
-
 (function( $ ) {
 	$(document).ready(function(){
 		
-	});
-
-
-
-	// $(window).load(function() {
-
-	// });
-
-	$(window).resize(function() {
+	    // Для мобилы 
+        $('.navbar-toggler').click(function() {
+            setTimeout(function() {
+                $('body, html').toggleClass('overflow');
+            }, 600)
+        });
 
 	});
 
-	$(window).scroll(function() {
-
+	
+	/*$(window).on("load resize", function () {
+		var imgHeight = $('.section-why .col-md-6').outerHeight();
+		$('.section-why .col-md-6').css({
+			height: imgHeight
+		})
 	});
+	*/
 
-	var mainSlider = function() {
-		$('.main-slider').slick({
-			dots: true,
-			infinite: true,
-			autoplay: true,
-			autoplaySpeed: 4000,
-			speed: 500,
-			fade: true,
-			arrows: true,
-			adaptiveHeight: true,
-			responsive: [
-				{
-					breakpoint: 993,
-					settings: {
-						arrows: false
-					}
+
+	var mobileOnlySlider = function() {
+		
+		function mobileOnlySlider() {
+			$('.slick-base').slick({
+				autoplay: false,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+
+				dots: true,
+				infinite: true,
+				arrows: false
+			});
+		}
+
+		$(window).on("load resize", function () {
+			var slickInit = $('.slick-base').hasClass('slick-initialized');
+			if (window.innerWidth < 768) {
+				if (!slickInit) {
+					mobileOnlySlider();
 				}
-				
-			]
+			} else {
+				if (slickInit) {
+					$('.slick-base').slick('unslick');
+				}
+			}
 		});
+	
+
 	};
 	
 
@@ -60,6 +67,14 @@
 	};
 
 
+	 //scroll down btn 2
+    /*$('.scroll-down').click(function() {
+        var sectionOffset = $(this).parents('section').next('section').offset().top;
+        $('body, html').animate({ scrollTop: sectionOffset }, 1500)
+    })*/
+
+
+
 	var maps = function() {
 		$('.maps').click(function () {
 			$('.maps iframe').css("pointer-events", "auto");
@@ -73,7 +88,6 @@
 	var headerFixed = function() {
 		if ( $( ".header-sticky" ).length ) {
 
-			var headerFix = $('.header-sticky').offset().top;
 			$(window).on('load scroll', function() {
 				var y = $(this).scrollTop();
 
@@ -87,14 +101,14 @@
 		}
 	};
 
-
-	var sticky = function() {
+	var headerSticky  = function() {
 		// When the user scrolls the page, execute myFunction
-		window.onscroll = function() {myFunction()};
+		window.onscroll = function() {
+			myFunction()
+		};
 
 		// Get the header
 		var header = document.getElementById("header");
-
 		// Get the offset position of the navbar
 		var sticky = header.offsetTop;
 
@@ -107,13 +121,6 @@
 			}
 		}
 	};
-
-
-
-	
-
-
-
 
 
 	var goTop = function() {
@@ -134,13 +141,13 @@
 
 	// Dom Ready
 	$(function() {
-		// mainSlider();
+		mobileOnlySlider();
 		// scrollToBottom();
 		// goTop();
 		// maps();
 		// headerFixed();
 
-		// sticky();
+		// headerSticky();
 	});
 
 

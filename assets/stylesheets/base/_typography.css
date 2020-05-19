@@ -52,18 +52,11 @@
     color: var(--theme-1);
 }
 
-.block-news a.more:hover {
-	color: var(--theme-2);
+.block-news:hover h3 a {
+	color: var(--theme-1);
 }
-
-
-/*  Content Section Elements
-...............................*/
-.pricing-plan h3 {
-	border-radius: var(--bd-rad-base);
-	padding: 12px;
-	background-color: var(--color-lg-gray);
-	margin-bottom: 27px;
+.block-news:hover a.more {
+	color: var(--theme-2);
 }
 
 
@@ -79,11 +72,12 @@
     font: 300 var(--fz-md)/1.7 var(--font-placeholder);
 }
 
-.form-control::-webkit-input-placeholder {
+
+.form-control:-webkit-input-placeholder {
     color: var(--text-lg);
     font: 300 var(--fz-md)/1.7 var(--font-placeholder);
 }
-.form-control::-moz-placeholder {
+.form-control:-moz-placeholder {
     color: var(--text-lg);
     font: 300 var(--fz-md)/1.7 var(--font-placeholder);
 }
@@ -100,15 +94,19 @@
 	color: var(--text-footer);
 }
 .footer-area  {
-	font-size: 14px;
+	font-size: var(--fz-md);
 }
 .footer-area li a:hover {
 	color: var(--text-footer-active);
 }
 
-.footer-area small, .section-copy {
-	font-size: 13px;
+.footer-area small, .copy-text {
+	font-size: var(--fz-sm);
 }
+.copy-links {
+	font-size: var(--fz-md);
+}
+
 
 .section-copy, .copy-text a {
 	color: var(--text-copy);

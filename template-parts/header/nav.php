@@ -1,11 +1,4 @@
-<button 
-class="navbar-toggler collapsed" 
-type="button" data-toggle="collapse" 
-data-target="#navbarsNav" aria-controls="navbarsNav" 
-aria-expanded="false" 
-aria-label="Toggle navigation"></button>
-			
-<div class="col-md-9 col-lg-8 collapse navbar-collapse" id="navbarsNav">
+<div class="col-lg-9 col-m-lg-8 collapse navbar-collapse" id="navbarsNav">
 	
 	<ul class="navbar-nav navbar-top">
 		<li class="nav-lang">
@@ -83,3 +76,10 @@ aria-label="Toggle navigation"></button>
 	</ul><!--// .navbar-main - Main Navigation -->
 
 </div><!--///////////// Navigation -->
+
+<button 
+class="navbar-toggler collapsed" 
+type="button" data-toggle="collapse" 
+data-target="#navbarsNav" aria-controls="navbarsNav" 
+aria-expanded="false" 
+aria-label="Toggle navigation"></button>
