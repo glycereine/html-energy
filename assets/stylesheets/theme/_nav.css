@@ -24,8 +24,21 @@
 .header {
 	position: relative;
 	z-index: 2;
-	min-height: 115px;
+	min-height: 89px;
 }
+
+.page .header {
+	background: var(--theme-1) url('/assets/images/hero.jpg') 50% no-repeat;
+}
+@media only screen and (min-width: 992px) {
+	.header {
+		min-height: 115px;
+	}
+	.page .header {
+		padding-bottom: 30px;
+	}
+}
+
 
 /*  Logo
 ...............................*/
@@ -161,16 +174,11 @@
 }
 
 
-.navbar-main .nav-link:hover {
+.navbar-main .nav-link:hover,
+.navbar-main .active {
 	color: #fff;
 	background-color: var(--theme-3);
 }
-
-
-.nav-item:hover:not(.dropdown) {
-	background-color: #fff;
-}
-
 
 
 /*  caret
@@ -314,6 +322,10 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	.navbar-main > .nav-item:not(:last-child) {
+		padding-right: 3px;
+	}
 	
 }
 
@@ -358,6 +370,10 @@
 	
 }
 @media only screen and (max-width: 991px)  {
+	.navbar-brand {
+		max-width: 200px;
+	}
+
 	.collapsing {
 	    position: fixed;
 	    height: 100%;
@@ -421,9 +437,6 @@
 
 @media only screen and (max-width: 767px) {
 
-	.navbar-brand {
-		max-width: 200px;
-	}
 
 	.open .dropdown-menu {
 		position: static;

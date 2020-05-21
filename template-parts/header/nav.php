@@ -10,14 +10,12 @@
 		<li class="nav-currency">
 			<div class="currency">
 				<span class="active">Usd</span>
-
 				<span>Грн</span>
-
 				<span>Руб</span>
 			</div>
 		</li>
 		<li class="nav-mailto">
-			<a href="mailto:">support@hosting.energy</a>
+			<a href="mailto:support@hosting.energy">support@hosting.energy</a>
 		</li>
 		<li class="nav-phone">
 			<a href="phone:+380 99 316-44-89">+380 99 316-44-89</a>
@@ -37,28 +35,44 @@
 
 	<ul class="navbar-nav navbar-main">
 		<li class="nav-item">
-			<a class="nav-link <?php if ($CURRENT_PAGE == "Hosting") {?>active<?php }?>" href="/hosting.php">Хостинг</a>
+			<a class="nav-link <?php if ($CURRENT_PAGE == "Hosting") {?>active<?php }?>" href="/hosting.php">
+				Хостинг
+			</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">VIP-хостинг</a>
+			<a class="nav-link" href="#">
+				VIP-хостинг
+			</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">VDS</a>
-		</li>
-		<li class="nav-item active">
-			<a class="nav-link" href="#">Сервера</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" href="#">Хостинг бекапов</a>
+			<a class="nav-link <?php if ($CURRENT_PAGE == "VDS") {?>active<?php }?>" href="/vds.php">
+				VDS
+			</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">Новости</a>
+			<a class="nav-link" href="#">
+				Сервера
+			</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="#">Акции</a>
+			<a class="nav-link" href="#">
+				Хостинг бекапов
+			</a>
 		</li>
-		 <li class="nav-item">
-			<a class="nav-link" href="#">База знаний</a>
+		<li class="nav-item">
+			<a class="nav-link" href="#">
+				Новости
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">
+				Акции
+			</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">
+				База знаний
+			</a>
 		</li>
 
 		<!-- <li class="nav-item dropdown" style="display: none;">

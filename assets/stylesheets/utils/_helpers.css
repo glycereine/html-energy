@@ -4,11 +4,27 @@
     overflow: hidden;
 }
 
+
+
 .translate-y-md {
     position: relative;
     margin-top: 50% !important;
     transform: translateY(-50%);
 }
+
+.block_after-va-md:after {
+    content: "";
+    height: 100%;
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;
+}
+.block_after-va-md .block-inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 
 
 .bd-base {
@@ -19,11 +35,8 @@
 }
 
 
-.block-news:after {
-    display: block;
-    clear: both;
-    content: "";
-}
+
+
 
 @media only screen and (min-width: 768px) {
     .text-right-sm {
@@ -41,3 +54,11 @@
         text-align: left;
     }
 }
+
+
+@media only screen and (max-width: 991px) {
+    .hide-lg {
+        display: none;
+    }
+}
+

@@ -48,6 +48,26 @@ section {
 }
 
 
+.col-xlg-10  {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+@media (min-width: 1200px){
+    .col-xlg-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+}
+
+
+
+
+
 @media (min-width: 1400px){
     .col-m-lg-8 {
         -ms-flex: 0 0 66.666667%;
@@ -55,3 +75,6 @@ section {
         max-width: 66.666667%;
     }
 }
+
+
+

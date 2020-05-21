@@ -1,7 +1,7 @@
 
 <?php include ("inc/meta.php");?>
 
-<header class="header" id="header">
+<header id="header" class="header">
 	<div class="container-fluid container-width">
 
 		<nav class="navbar navbar-expand-lg">

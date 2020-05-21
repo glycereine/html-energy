@@ -58,19 +58,18 @@ sass/
 |– components/
 |   |– _components.css   	#
 |  	|  --carousel.css 		#
-|   |– --forms.css   		#
-|   |– --nav.css   			#
 |
 |– layout/
 |   |– _layout.css   		#
 |   |– --header.css   		#
 |   |– --footer.css   		#
+|   |– --nav.css   			#
+|   |– --forms.css   		#
 |   |– _responsive.css   	#
 |   
 |– pages/
 |   |– _main.css
 |   |– _page.css
-
 
 
 */

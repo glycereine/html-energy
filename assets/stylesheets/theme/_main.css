@@ -2,150 +2,135 @@
 
 /*  Sections
 -----------------------------------------------*/
-
 .hero-section {
-    position: relative;
-
-    margin-top: -115px;
-    padding: 180px 0 200px;
-
-    --bg-hwave-state : left 50% bottom -94px;
-	
+	position: relative;
+	margin-top: -115px;
+	padding: 180px 0 200px;
+	--bg-hwave-state: left 50% bottom -94px;
 	background-color: var(--theme-1);
-
 	background-image: url('../../images/wave.png'), url('../../images/hero.jpg');
 	background-position: var(--bg-hwave-state), 50% 0;
 	background-repeat: no-repeat, no-repeat;
 	background-size: inherit, cover;
-    
 }
 
 .hero-section h3 {
-    font-size: 16px;
-    font-weight: 400;
-
-    margin-bottom: 12px;
-    padding-left: 5px;
-
-    letter-spacing: 8px;
-    text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 12px;
+	padding-left: 5px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
 }
 
-
 .hero-section h1 {
-    margin-bottom: 32px;
-
-    letter-spacing: -.4px;
+	margin-bottom: 32px;
+	letter-spacing: -.4px;
 }
 
 .hero-title {
-    margin-bottom: 44px;
+	margin-bottom: 44px;
 }
-
 
 .hero-section p {
-    line-height: 1.5;
-
-    margin-bottom: 24px;
+	line-height: 1.5;
+	margin-bottom: 24px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width:768px) {
 	.hero-section .btn-wrap .btn-main {
-	    margin-right: 27px;
+		margin-right: 27px;
 	}
+
 }
-@media only screen and (min-width: 992px) {
+
+@media only screen and (min-width:992px) {
 	.hero-section p:last-child {
-	    margin-bottom: 0;
+		margin-bottom: 0;
 	}
 
 	.hero-section .btns {
-	    align-self: flex-end;
+		align-self: flex-end;
 	}
-}
-@media only screen and (min-width: 1200px) {
-    .hero-section {
-        min-height: 1004px;
-        padding: 296px 0 200px;
-    }
+
 }
 
-@media only screen and (max-width: 767px) {	
+@media only screen and (min-width:1200px) {
 	.hero-section {
-		--bg-hwave-state : left 66% bottom -94px;
+		min-height: 1004px;
+		padding: 296px 0 200px;
 	}
-	/*:root {
-	    --bg-hwave-state : left 70% bottom -94px;
-	}*/
+
 }
 
+@media only screen and (max-width:767px) {
+	.hero-section {
+		--bg-hwave-state: left 66% bottom -94px;
+	}
 
-
+}
 
 /* 
 ...............................*/
 .section-pricing {
-    padding-bottom: 155px;
+	padding-bottom: 155px;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width:992px) {
 	.pricing-col {
-	    max-width: 456px;
+		max-width: 456px;
 	}
+
 }
 
 .pricing-plan {
-    height: 100%;
-    padding: 54px 52px 52px;
-    background-color: var(--body-bg);
+	height: 100%;
+	padding: 54px 52px 52px;
+	background-color: var(--body-bg);
 }
 
 .pricing-plan .ico {
-    margin-bottom: 34px;
+	margin-bottom: 34px;
 }
 
 .pricing-plan .svg-ico {
-    max-width: 56px;
-    height: 56px;
+	max-width: 56px;
+	height: 56px;
 }
 
 .pricing-plan h3 {
-    margin-bottom: 16px;
-    padding: 5px 12px;
-
-    border-radius: var(--bd-rad-base);
-    background-color: var(--color-lg-gray);
+	margin-bottom: 16px;
+	padding: 5px 12px;
+	border-radius: var(--bd-rad-base);
+	background-color: var(--color-lg-gray);
 }
 
 .pricing-plan .price {
-    font-size: 14px;
-
-    margin-bottom: 17px;
+	font-size: 14px;
+	margin-bottom: 17px;
 }
 
 .pricing-plan .price strong {
-    font-size: 30px;
+	font-size: 30px;
 }
 
 .pricing-plan dl.list-plan {
-    padding: 24px 22px 21px;
-}
-@media only screen and (min-width: 992px) {
-	.pricing-plan dl.list-plan {
-    	min-height: 299px;
-	}
+	padding: 24px 22px 21px;
 }
 
+@media only screen and (min-width:992px) {
+	.pricing-plan dl.list-plan {
+		min-height: 299px;
+	}
+
+}
 
 .pricing-plan .description {
-    font-size: var(--fz-md);
-    line-height: 1.6;
-
-    margin-bottom: 26px;
-
-    color: var(--text-lg);
+	font-size: var(--fz-md);
+	line-height: 1.6;
+	margin-bottom: 26px;
+	color: var(--text-lg);
 }
-
 
 
 /* Наши преимущества
@@ -154,178 +139,138 @@
 	padding-bottom: 29px;
 }
 .section-advantages .item {
-    margin-bottom: 31px;
+	margin-bottom: 31px;
 }
-
 .advantages-block {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    height: 100%;
-    padding: 31px 30px 27px 38px;
-
-    background-color: var(--invers);
-
-    flex-grow: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 31px 30px 27px 38px;
+	background-color: var(--invers);
+	flex-grow: 1;
 }
-
 .advantages-block .ico {
-    position: absolute;
-    z-index: 1;
-    top: 22px;
-
-    display: inline-block;
-
-    width: 69px;
-    height: 69px;
-    margin: 0 12px 1px 31px;
-
-    border-radius: 100%;
-    background-color: var(--color-lg-blue);
-    box-shadow: 0 0 0 10px var(--invers);
+	position: absolute;
+	z-index: 1;
+	top: 22px;
+	display: inline-block;
+	width: 69px;
+	height: 69px;
+	margin: 0 12px 1px 31px;
+	border-radius: 100%;
+	background-color: var(--color-lg-blue);
+	box-shadow: 0 0 0 10px var(--invers);
 }
-
 .advantages-block .svg-ico {
-    display: block;
-
-    width: 40px;
-    height: 40px;
-    margin-top: 50%;
-    margin-right: auto;
-    margin-left: auto;
-
-    transform: translateY(-50%);
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-top: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translateY(-50%);
 }
-
 .advantages-block h3 {
-    font-weight: 700;
-    line-height: 1.1;
-
-    display: flex;
-
-    min-height: 50px;
-    margin: 0;
-    padding: 2px 0 5px 112px;
-
-    align-items: center;
+	font-weight: 700;
+	line-height: 1.1;
+	display: flex;
+	min-height: 50px;
+	margin: 0;
+	padding: 2px 0 5px 112px;
+	align-items: center;
 }
-
 .advantages-block .description {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-
-    height: 100%;
-    padding: 32px 30px 27px 32px;
-
-    background-color: var(--color-lg-gray);
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	height: 100%;
+	padding: 32px 30px 27px 32px;
+	background-color: var(--color-lg-gray);
 }
 
 
 /* Выберите красивое имя своему сайту
 ...............................*/
 .section-name {
-    min-height: 400px;
-    padding: 86px 0 75px;
-
-    background:  url(../../images/section-spaces.jpg) 50% no-repeat;
-    background-size: cover;
+	min-height: 400px;
+	padding: 86px 0 75px;
+	background: url(../../images/section-spaces.jpg) 50% no-repeat;
+	background-size: cover;
 }
 
 .section-name ul {
-    margin: 0;
-    flex-wrap: wrap;
-}
-.section-name ul li:not(:last-child) {
-    padding-right: 12px;
+	margin: 0;
+	flex-wrap: wrap;
 }
 
+.section-name ul li:not(:last-child) {
+	padding-right: 12px;
+}
 
 
 /* Новости
 ...............................*/
-.section-news {
-    padding: 125px 0 81px;
-
-    background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
+.section-news,
+.section-services {
+	padding: 125px 0 81px;
+	background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
 }
-
 .section-news .item {
 	margin-bottom: 31px;
 }
-
 .block-news {
-    position: relative;
-
-    height: 100%;
-    padding: 28px 35px 65px 27px;
-
-    border-width: 2px;
-    background-color: var(--body-bg);
-
-        transition: box-shadow 200ms;
+	position: relative;
+	height: 100%;
+	padding: 28px 35px 65px 27px;
+	border-width: 2px;
+	background-color: var(--body-bg);
+	transition: box-shadow 200ms;
 }
-
-
 .block-news data {
-    display: inline-block;
-
-    height: 30px;
-    margin-bottom: 18px;
-    padding: 0 15px;
-
-    border-radius: calc(var(--bd-rad-base) - 5px);
+	display: inline-block;
+	height: 30px;
+	margin-bottom: 18px;
+	padding: 0 15px;
+	border-radius: calc(var(--bd-rad-base) - 5px);
 }
-
 .block-news h3 {
 	margin-bottom: 17px;
 }
 .block-news .description {
-    position: relative;
-
-    overflow: hidden;
-
-    height: 88px;
+	position: relative;
+	overflow: hidden;
+	height: 88px;
 }
-
 .block-news .description:after {
-    position: absolute;
-    bottom: 0;
-
-    width: 100%;
-    height: 40px;
-
-    content: '';
-
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, .4)50%);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	content: '';
+	background: linear-gradient(0deg, rgba(255, 255, 255, 1)10%, rgba(255, 255, 255, .4)50%);
 }
-
 .block-news p {
-    margin-bottom: 22px;
+	margin-bottom: 22px;
 }
-
 .block-news p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
-
 
 .block-news a.more {
-    position: absolute;
-    right: 38px;
-    bottom: 25px;
+	position: absolute;
+	right: 38px;
+	bottom: 25px;
 }
 
 
 /* Заголовок блока
 ...............................*/
 .section-block {
-    min-height: 381px;
-    padding: 93px 0 100px;
-
-    background: url('../../images/section-block.jpg') 50% no-repeat;
-    background-size: cover;
+	min-height: 381px;
+	padding: 93px 0 100px;
+	background: url('../../images/section-block.jpg') 50% no-repeat;
+	background-size: cover;
 }
 
 .section-block p:last-child {
@@ -333,66 +278,87 @@
 }
 
 
-/*  FOOTER AREA
------------------------------------------------*/
+/* Hosting Top
+...............................*/
+.section-hosting-top {
+    padding-bottom: 0;
+}
 
-
-.footer-area {
-    position: relative;
-    padding: 57px 0 44px;
-    background-color: var(--footer-area-bg);
+.section-hosting-top .img {
+	margin-top: auto;
+}
+.section-hosting-top .text{
+	align-self: center;
+	padding-bottom: 30px;
 }
 
 
+.section-rate {
+	background-color: var(--color-lg-gray);
+}
+
+
+
+
+
+/*  FOOTER AREA
+-----------------------------------------------*/
+.footer-area {
+	position: relative;
+	padding: 57px 0 44px;
+	background-color: var(--footer-area-bg);
+}
+
 .footer-area .img-pay {
-    margin: 24px 0 4px 0;
+	margin: 24px 0 4px 0;
 }
 
 .footer-area h3 {
-    margin-top: 27px;
-    margin-bottom: 23px;
+	margin-top: 27px;
+	margin-bottom: 23px;
 }
 
 .footer-area h4 {
-    font-weight: 500;
+	font-weight: 500;
 	padding-top: 27px;
-    margin-bottom: 21px;
+	margin-bottom: 21px;
 }
 
 .footer-area ul {
-    margin-bottom: 0;
-    line-height: 1.4;
-}
-.footer-area ul li:not(:last-child) {
-    margin-bottom: 11px;
+	margin-bottom: 0;
+	line-height: 1.4;
 }
 
+.footer-area ul li:not(:last-child) {
+	margin-bottom: 11px;
+}
 
 .footer-area address {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .footer-area p {
-    margin-bottom: 7px;
-    line-height: 1.7;
-}
-.footer-area small {
-    margin-top: -3px;
-    display: block;
-}
-.footer-area p:last-child {
-    margin-bottom: 0;
+	margin-bottom: 7px;
+	line-height: 1.7;
 }
 
+.footer-area small {
+	margin-top: -3px;
+	display: block;
+}
+
+.footer-area p:last-child {
+	margin-bottom: 0;
+}
 
 /*  Copyright
 -----------------------------------------------*/
 .section-copy {
-    padding: 14px 0;
-    background-color: var(--footer-copy-bg);
-    font-weight: 400;
+	padding: 14px 0;
+	background-color: var(--footer-copy-bg);
+	font-weight: 400;
 }
 
 .copy-links a:not(:last-child) {
-    margin-right: 40px;
+	margin-right: 40px;
 }
