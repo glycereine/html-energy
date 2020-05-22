@@ -1,7 +1,7 @@
 
 <?php include ("header.php");?>
 
-	<section class="block section-hosting-top">
+	<section class="section-hosting-top">
 		<div class="container-fluid container-width-md">
 			<div class="section-title title-block title-center">
 				<h2>Виртуальный хостинг сайтов от Hosting.Energy</h2>
@@ -25,7 +25,7 @@
 	</section>
 
 
-	<section class="block section-rate">
+	<section class="section-rate">
 		<div class="container-fluid container-width-md">
 			<div class="section-title title-block title-center">
 				<h2>Тариф <strong>"Универсальный"</strong></h2>
@@ -184,7 +184,7 @@
 		</div>
 	</section>
 
-	<section class="block">
+	<section>
 		<div class="container-fluid container-width-md">
 			
 			<div class="section-title title-block title-center">
@@ -206,38 +206,38 @@
 								<span class="preset preset_pro">Профи</span>
 							</div>
 
-							<div class="order-wrap block-rad">
+							<div class="order-wrap bd-rad">
 								<span class="order-label">Количество сайтов: <span id="sites_amount">1</span></span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="sites" data-addon="347"></div>
 								</div>
 							</div>
-							<div class="order-wrap block-rad">
+							<div class="order-wrap bd-rad">
 								<span class="order-label">Количество баз данных: <span id="databases_amount">1</span></span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="databases" data-addon="348"></div>
 								</div>
 							</div>
-							<div class="order-wrap block-rad">
+							<div class="order-wrap bd-rad">
 								<span class="order-label">Диск: <span id="disk_amount">3000</span> МБ</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="disk" data-addon="343"></div>
 								</div>
 							</div>
 							
-							<div class="order-wrap block-rad">    
+							<div class="order-wrap bd-rad">    
 								<span class="order-label" title="Количество памяти, выделяемой на каждый скрипт.">RAM (на скрипт)<span class="red">*</span>: <span id="ram_amount">160</span> МБ</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="ram" data-addon="350"></div>
 								</div>
 							</div>
-							<div class="order-wrap block-rad">    
+							<div class="order-wrap bd-rad">    
 								<span class="order-label">Почтовые ящики: <span id="mailboxes_amount">1</span></span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="mailboxes" data-addon="349"></div>
 								</div>
 							</div>
-							<div class="order-wrap block-rad">    
+							<div class="order-wrap bd-rad">    
 								<span class="order-label">Выделенные IP адреса: <span id="ip_amount">0</span></span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="ip" data-addon="345"></div>
@@ -272,7 +272,7 @@
 		</div>
 	</section>
 
-	<section class="block section-services">
+	<section class="section-services">
 		<div class="container-fluid container-width-md">
 			<div class="section-title title-block title-center">
 				<h2>Сервисы:</h2>

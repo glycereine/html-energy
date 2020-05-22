@@ -4,7 +4,11 @@
     
     <div class="container-fluid container-width-md">
     
-        <h1><?php print $PAGE_TITLE;?></h1>
+        <div class="page-title title-block">
+            <h1><?php print $PAGE_TITLE;?></h1>
+            <span class="title-line line-left"><span class="line-inner"></span></span>
+        </div>
+
     
         <p>Это удобный, качественный, надежный и недорогой хостинг. Мы работаем, чтобы сделать Hosting.Energy лучшим хостингом для своих клиентов предоставляя максимум услуг по доступным ценам. Наши решения подойдут для размещения любых сайтов – от визиток до интернет-магазинов и развлекательных порталов.</p>
     

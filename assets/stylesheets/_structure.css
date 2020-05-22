@@ -36,18 +36,23 @@ sass/
 |   |	|– _colors.css		# colors (backgrounds of elements, borders, box-shadow,..)
 |   |	|– _state.css		# hovers, animations, transition
 |	|
-|   |- v2/
+|   |- v/
 |   |	|– _base.css		#
 |   |	|– _typography.css	# FF + colors
 |   |	|– _transition.css	# animations, transition
 |	|
-|   |- v3/
+|   |- v/
+|   |	|– _base.css		# 
+|   |	|– _theme.css		# colors, borders, box-shadow, backgrounds(-image,-colors)
+|   |	|– _state.css		# hovers, animations, transition
+|	|
+|   |- v/
 |   |	|– _base.css		# 
 |   |	|– _theme.css		# FF + colors + hovers, animations, transition
 |	|
-|   |- v4/
+|   |- v/
 |   	|– _base.css		# 
-|   	|– _theme.css		# FF + colors
+|   	|– _theme.css		# FF + colors, borders, box-shadow, backgrounds(-image,-colors)
 |		|– _state.css		# hovers, animations, transition
 |
 |– helpers/

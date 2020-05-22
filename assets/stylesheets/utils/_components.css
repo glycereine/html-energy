@@ -114,25 +114,15 @@ span.line-invers span:before, span.line-invers span:after {
 }
 
 
+
 /* Block styles
 ...............................*/
 .block-style-base {
-
-}
-.block-rad,
-.block-style-base {
+	padding: 30px;
 	border-radius: var(--bd-rad-base);
-}
-.block-pd {
-	padding: 28px;
+	box-shadow: var(--box-shadow-group-lg);
 }
 
-.shadow-base,
-.block-shadow,
-.block-style-base,
-.block-news:hover {
-	box-shadow: 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
-}
 
 
 /* mosue-scroll

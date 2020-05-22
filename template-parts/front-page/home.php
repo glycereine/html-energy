@@ -1,6 +1,6 @@
 
 
-<section class="section-pricing" id="to-content">
+<section class="section-pricing hide-top-indent" id="to-content">
 	<div class="container-fluid container-width-md">
 		
 		<div class="section-title title-block title-center">
@@ -201,7 +201,7 @@
 </section><!--// .section-pricing -->
 
 
-<section class="block section-name invers-color invers-parent text-center">
+<section class="section-name invers-color invers-parent text-center">
 	<div class="container-fluid container-width-sm">
 		
 		<div class="section-title title-block title-center">
@@ -229,7 +229,7 @@
 </section><!--// .section-name -->
 
 
-<section class="block section-advantages">
+<section class="section-advantages">
 	<div class="container-fluid container-width-md">
 		
 		<div class="section-title title-block title-center">
@@ -246,7 +246,7 @@
 						</svg>
 					</div>
 					<h3>Техподдержка 24/7</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 					</div>
 				</div>
@@ -259,7 +259,7 @@
 						</svg>
 					</div>
 					<h3>Аптайм 99.9%</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Бесплатная защита от DDoS для всех клиентов виртуального хостинга.
 					</div>
 				</div>
@@ -272,7 +272,7 @@
 						</svg>
 					</div>
 					<h3>AntiDDoS</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Профессионально, вежливо и оперативно. В любое время дня и ночи.
 					</div>
 				</div>
@@ -285,7 +285,7 @@
 						</svg>
 					</div>
 					<h3>Проверка на вирусы</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 					</div>
 				</div>
@@ -298,7 +298,7 @@
 						</svg>
 					</div>
 					<h3>Круглосуточный мониторинг</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Бесплатная защита от DDoS для всех клиентов виртуального хостинга.
 					</div>
 				</div>
@@ -311,7 +311,7 @@
 						</svg>
 					</div>
 					<h3>SSD</h3>
-					<div class="description block-rad">
+					<div class="description bd-rad">
 						Профессионально, вежливо и оперативно.
 					</div>
 				</div>
@@ -322,7 +322,7 @@
 </section><!--// .section-advantages -->
 
 
-<section class="block section-news">
+<section class="section-news">
 	<div class="container-fluid container-width">
 		
 		<div class="section-title title-block title-center">
@@ -332,7 +332,7 @@
 
 		<div class="row justify-content-center slick-base">
 			<div class="item col-md-6 col-lg-3">
-				<div class="block-news bd-base2 block-rad">
+				<div class="block-news bd-base2 bd-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Обновление MariaDB на сервере sofi.hosting.energy</a></h3>
 					<div class="description">
@@ -344,7 +344,7 @@
 				</div>
 			</div>
 			<div class="item col-md-6 col-lg-3">
-				<div class="block-news bd-base2 block-rad">
+				<div class="block-news bd-base2 bd-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Сетевые проблемы roxy.hosting.energy</a></h3>
 					<div class="description">
@@ -356,7 +356,7 @@
 				</div>
 			</div>
 			<div class="item col-md-6 col-lg-3">
-				<div class="block-news bd-base2 block-rad">
+				<div class="block-news bd-base2 bd-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Обновление MariaDB на сервере sofi.hosting.energy</a></h3>
 					<div class="description">
@@ -368,7 +368,7 @@
 				</div>
 			</div>
 			<div class="item col-md-6 col-lg-3">
-				<div class="block-news bd-base2 block-rad">
+				<div class="block-news bd-base2 bd-rad">
 					<data>01.05.2020</data>
 					<h3><a href="#">Скидка 60% на VDS + бекап в подарок</a></h3>
 					<div class="description">
@@ -399,7 +399,7 @@
 </section><!--//// Section Name -->
 
 
-<section class="section-why block">
+<section class="section-why">
 	<div class="container-fluid container-width">
 		
 		<div class="row">

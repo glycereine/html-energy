@@ -237,7 +237,7 @@
     }
 
 
-	.block,
+	section,
 	.section-block,
 	.section-name {
 		min-height: inherit;

@@ -1,10 +1,9 @@
 /*  HELPERS
 ----------------------------------------------------------- */
+
 .overflow {
     overflow: hidden;
 }
-
-
 
 .translate-y-md {
     position: relative;
@@ -26,15 +25,21 @@
 
 
 
-
+.bd-rad {
+    border-radius: var(--bd-rad-base);
+}
 .bd-base {
     border: var(--bd--base);
 }
 .bd-base2 {
     border: var(--bd-base2);
 }
-
-
+.bs-base {
+    box-shadow: var(--box-shadow-group);
+}
+.bs-base-lg {
+    box-shadow: var(--box-shadow-group-lg);
+}
 
 
 
@@ -54,7 +59,6 @@
         text-align: left;
     }
 }
-
 
 @media only screen and (max-width: 991px) {
     .hide-lg {
