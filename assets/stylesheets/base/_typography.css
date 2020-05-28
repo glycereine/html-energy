@@ -5,6 +5,9 @@
 
 /* Buttons
 ...............................*/
+.btn-main, .btn-border, .btn-preset {
+	line-height: 1;
+}
 .btn-main, .btn-border {
 	font-weight: bold;
 	font-size: 13px;
@@ -12,26 +15,12 @@
 	text-transform: uppercase;
 }
 
-
-.btn-bd-theme-1 {
-	color: var(--theme-1);
-}
-.btn-bd-theme-2 {
-	color: var(--theme-2);
-}
-.btn-bd-theme-3 {
-	color: var(--theme-3);
+.btn-preset {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0;
 }
 
-.btn-main, .btn-main:hover,
-.hero-section .btn-border, .btn-border:hover {
-	color: var(--invers);
-}
-
-.hero-section .btn-border:hover {
-	color: var(--main);
-	background-color: var(--invers);
-}
 
 
 /*

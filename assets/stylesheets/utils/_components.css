@@ -15,21 +15,21 @@
 
 .slick-dots li button:before {
 	font-size: 15px;
-	    transition: all 200ms;
+		transition: all 200ms;
 }
 
 .slick-dots li button:hover:before,
 .slick-dots li.slick-active button:before {
-    color: var(--theme-1);
+	color: var(--theme-1);
 }
 
 .slick-dots li:nth-child(2n) button:hover:before,
 .slick-dots li.slick-active:nth-child(2n) button:before {
-    color: var(--theme-2);
+	color: var(--theme-2);
 }
 .slick-dots li:nth-child(3n) button:hover:before,
 .slick-dots li.slick-active:nth-child(3n) button:before {
-    color: var(--theme-3);
+	color: var(--theme-3);
 }
 
 
@@ -128,31 +128,31 @@ span.line-invers span:before, span.line-invers span:after {
 /* mosue-scroll
 ...............................*/
 .mosue-scroll-wrap {
-    position: absolute;
-    bottom: 160px;
+	position: absolute;
+	bottom: 160px;
 }
 .mosue-scroll-wrap .svg-ico {
 	width: 14px;
 	height: 26px;
-    display: inline-block;
-    fill: var(--theme-3);
+	display: inline-block;
+	fill: var(--theme-3);
 }
 
 
 /*  Buttons
 ...............................*/
-.btn-main, .btn-border {
-	user-select: none;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    letter-spacing: .7px;
-
+.btn-main, .btn-border, .btn-preset {
+	display: inline-block;
 	min-width: 180px;
 	min-height: 50px;
-	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: .7px;
 	border-radius: calc(var(--bd-rad-base) + 5px);
 }
+
 
 .btn-main {
 	position: relative;
@@ -162,18 +162,17 @@ span.line-invers span:before, span.line-invers span:after {
 		transition: all 300ms;
 }
 
-
 .btn-main:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-    border-radius: 30px;
-    right: 0;
-    left: 0;
-    background: linear-gradient(90deg, #f15d22 40% , var(--theme-2));
-    	transition: all 300ms;
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	border-radius: 30px;
+	right: 0;
+	left: 0;
+	background: linear-gradient(90deg, #f15d22 40% , var(--theme-2));
+		transition: all 300ms;
 }
 
 
@@ -185,9 +184,41 @@ button.btn-main {
 }
 
 
-.btn-border {
+.btn-border, .btn-preset {
 	border: 2px solid transparent;
+}
+.btn-border {
 	padding: 16px 45px 15px;
+}
+
+
+.btn-preset {
+	width: 100%;
+	background-color: var(--invers);
+	max-width: 100%;
+	margin: 0 15px;
+	padding: 12px 15px;
+	flex-grow: 1;
+	border-color: var(--color-lg-blue);
+	color: var(--color-dk-gray);
+}
+
+
+.btn-preset:hover, .preset_active {
+	color: var(--invers);
+	border-color: var(--color-blue);
+	background-color: var(--color-blue);
+	box-shadow: var(--box-shadow-group_theme-1);
+}
+
+.btn-main, .btn-main:hover,
+.hero-section .btn-border, .btn-border:hover {
+	color: var(--invers);
+}
+
+.hero-section .btn-border:hover {
+	color: var(--main);
+	background-color: var(--invers);
 }
 
 
@@ -268,26 +299,26 @@ button.btn-main {
 
 .list-style {
 	border-radius: var(--bd-rad-base);
-    border: var(--bd-base);
-    border-width: 2px;
+	border: var(--bd-base);
+	border-width: 2px;
 	padding: 28px 22px;
 }
 
 dl.list-plan {
-    position: relative;
-    margin-bottom: 25px;
+	position: relative;
+	margin-bottom: 25px;
 }
 dl.list-plan dt {
 	position: absolute;
 	margin-top: -5px;
 }
 dl.list-plan dd {
-    font-size: var(--fz-md);
-    line-height: 1.43;
-    font-weight: 400;
+	font-size: var(--fz-md);
+	line-height: 1.43;
+	font-weight: 400;
 
 	padding-left: 12px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 dl.list-plan svg.svg-ico {
@@ -307,159 +338,256 @@ table.table_list {
 	width: 100%;
     overflow: hidden;
     background: var(--body-bg);
+    border-radius: var(--bd-rad-base);
+    box-shadow: inset 0 0 0 2px var(--color-lg-gray);
 }
 
 table.table_list td, table.table_list th {
-    padding: 15px 21px;
+	padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 table.table_list th {
-    font-weight: 500;
+	position: relative;
+	font-weight: 300;
+    padding-left: 65px;
 }
 
-table.table_list th.table_h {
-    background-color: var(--color-lg-blue);
-    font-weight: 700;
-    font-size: 20px;
+
+table.table_list svg.svg-ico {
+	position: absolute;
+	top: 25px;
+	left: 48px;
+	width: 7px; height: 11px;
 }
 
 table.table_list td {
-	font-weight: 300;
-    color: var(--text-lg);
-    padding-left: 0;
+	font-weight: 700;
+    padding-left: 10px;
+    text-align: right;
+    padding-right: 48px;
+    width: 200px;
+    border-left: 2px solid var(--color-lg-gray);
 }
 
 table.table_list tr:nth-child(even) {
-    background-color: var(--color-lg-gray);
-}
-
-table.table_list tr:first-child > * {
-    padding-top: 21px;
-}
-table.table_list tr:last-child > * {
-    padding-bottom: 21px;
-}
-
-
-/*  Currency Price Inline
-...............................*/
-.order-block-inline {
-	padding: 15px 15px 15px 30px;
-    border-radius: 60px;
-    background-color: var(--theme-1);
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-}
-
-.order-block-inline label,
-.order-block-inline .currency-price {
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0;
-}
-
-.order-block-inline .currency-names {
-    padding: 0 40px 0 16px;
-}
-.order-block-inline span.currency-name {
-    font-size: 14px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 5px 12px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.order-block-inline span.currency-name-active {
-    border-radius: var(--bd-rad-base);
-    background-color: var(--theme-3);
-}
-
-.order-block-inline .currency-price {
-	margin-right: auto;
+	background-color: var(--color-lg-gray);
 }
 
 
 /* Calcuator
 ............................*/
-.calcuator_wrap {
-	background-color: var(--main-bg);
-    padding: 30px 30px 50px;
+.section-calc .block-style-base {
+	padding: 97px 152px;
+	background-color: #fff;
 }
 
-.calcuator_wrap .runner-set {
+@media only screen and (min-width: 992px) {
+	.section-calc  .col-lg-right  {
+		flex: 0 0 305px;
+		max-width: 305px;
+	}
+}
+
+.calcuator {
+
+}
+.runner-set {
+	flex-wrap: nowrap;
 	padding-bottom: 30px;
 }
-.calcuator_wrap .runner-set strong {
-    display: inline-block;
-    padding-right: 10px;
+
+.runner-set .btn-preset {
+   
 }
-.calcuator_wrap .runner-set span.preset {
-    color: var(--theme);
-    text-decoration: underline;
-    display: inline-block;
-    padding: 5px 12px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-.calcuator_wrap .runner-set span.preset_active {
-    text-decoration: none;
-    border-radius: var(--bd-rad-base);
-    background-color: var(--theme-3);
-    color: var(--invers);
+.runner-set .preset_active {
+	
 }
 
-.calcuator_wrap .order-wrap {
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-}
-.calcuator_wrap .order-wrap:nth-child(even) {
-    background-color: var(--color-lg-gray);
-}
-.calcuator_wrap span.order-label {
-    width: 295px;
-    padding-right: 10px;
-    white-space: nowrap;
-}
-.calcuator_wrap span.order-label span {
-    color: var(--theme-1);
-    font-weight: bold;
-}
-
-.calcuator_wrap .runner-wrap {
+.calcuator .order-wrap {
 	position: relative;
-    height: 11px;
-    background-color: var(--color-lg-blue);
-    border-radius: 10px;
+	padding: 19px 0px 19px 17px;
+	display: flex;
+	align-items: center;
+}
+
+.calcuator .order-wrap .svg-ico {
+	position: absolute;
+	left: 0;
+	width: 7px;
+	height: 11px;
+}
+
+
+.calcuator .order-wrap:not(:last-child) {
+	border-bottom: var(--bd-b-base);
+}
+
+
+
+.calcuator span.order-label {
+	width: 100%;
+	max-width: 275px;
+	font-weight: 400;
+}
+.calcuator span.order-label small {
+	display: block;
+    line-height: 1.4;
+    font-size: 13px;
+    color: var(--color-dk-gray);
+}
+
+
+.calcuator span.order-label span {
+	color: var(--theme-1);
+	font-weight: bold;
+}
+
+.calcuator .runner-wrap, .calcuator .runner-bg, .calcuator .ui-slider-range {
+	height: 6px;
+}
+
+.calcuator .runner-wrap {
+	position: relative;
+	background-color: var(--color-lg-gray);
+	border-radius: 10px;
+	width: 100%;
+	margin: 0 30px;
+}
+
+.calcuator .form-control {
+	background-color: #f5f5f5;
+	box-shadow: inset 3px 3px 8px 4px rgba(178, 177, 175, 0.46);
+	font-size: 16px;
+	color: var(--main);
+	font-weight: 700;
+	text-align: center;
+	border-radius: var(--bd-rad-base);
+	width: 121px;
+	height: 40px;
+	border: 0;
+	outline: none;
+}
+input#number_sites_amount:focus {
+	box-shadow: inset 3px 3px 8px 4px rgba(178, 177, 175, 0.46);
+	border: 2px solid #50a444 !important;
+	background-color: #fff;
+}
+
+
+.calcuator .ui-slider-range {
+	background: linear-gradient(to right, #f79e3c 0%, var(--theme-2) 100%);
+	position: absolute;
+	border-radius: 5px;
+	transition: all linear 50ms;
+}
+.calcuator .ui-slider-handle {
+	top: -12px;
+	width: 29px;
+	height: 29px;
+	border-radius: 100%;
+	border: 2px solid var(--invers);
+	box-shadow: var(--box-shadow-group_theme-2);
+	background: linear-gradient(to right, #f79e3c 0%, var(--theme-2) 100%);
+	position: absolute;
+	z-index: 2;
+	margin-left: -9px;
+	outline: none;
+	transition: all linear 50ms;
+	cursor: pointer;
+}
+.calcuator .ui-slider-handle:after {
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	background-color: var(--invers);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	border-radius: 100%;
+	transform: translateY(-50%);
+}
+
+
+
+/*  Currency Price
+...............................*/
+.order-block {
+	padding: 50px 30px;
+	border-radius: 20px;
+	background-color: #f5f5f5;
+	height: 100%;
+	text-align: center;
+
+}
+
+.order-block label {
+
+}
+.order-block .currency-ico {
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	border: 6px solid var(--invers);
+	margin: 0 auto 49px;
+	background-color: var(--color-lg-blue);
+}
+.order-block .currency-ico .svg-ico {
+	fill: var(--color-blue);
+	max-width: 40px;
+    height: 100%;
     width: 100%;
 }
-.runner-bg {
+
+.order-block .currency-price {
+	background: #fff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin: 22px 0 40px;
+    min-height: 120px;
+}
+
+.order-block .currency-price-title {
     display: block;
-    height: 11px;
+    font-size: 14px;
+    color: var(--color-dk-gray);
 }
-.calcuator_wrap .ui-slider-range {
-    background: linear-gradient(to right, #f15d22 0%, var(--theme-3) 50%,var(--theme-2) 100%);
-    position: absolute;
-    height: 11px;
-    border-radius: 5px;
-     transition: all linear 50ms;
+
+.currency-price-wrap {
+	 font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
 }
-.calcuator_wrap .ui-slider-handle {
-    top: 0px;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #fff;
-    box-shadow: 0 0 0 4px var(--theme-1);
-    position: absolute;
-    z-index: 2;
-    margin-left: -9px;
-    outline: none;
-    transition: all linear 50ms;
-    cursor: pointer;
+
+.currency-names {
+	
 }
-.calcuator_wrap .order-block-inline {
-	margin: 30px 0 0;
+.currency-name {
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.currency-name:not(:last-child) {
+	margin-right: 17px;
+}
+
+.currency-name-active {
+	position: relative;
+	color: var(--theme-3);
+}
+
+.currency-name-active:after {
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 4px;
+	background-color: var(--theme-3);
+	border-radius: 100%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: -5px;
 }

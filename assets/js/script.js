@@ -234,12 +234,19 @@ $(function() {
      		range: "min",
 			min: 1,
 			max: 40,
-			// step: 1,
+			step: 1,
 			slide: function( event, ui ) {
-				$( "#sites_amount" ).html( ui.value );
+				$( "#sites_amount" ).val( ui.value );
 				count_total_price();
 			}
 		});
+		$("#sites_amount").change(function() {
+		    $("#sites").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
+		});
+
+
 		$( "#databases" ).slider({
 			// animate: true,
 			orientation: "horizontal",
@@ -248,10 +255,16 @@ $(function() {
 			max: 40,
 			step: 1,
 			slide: function( event, ui ) {
-				$( "#databases_amount" ).html( ui.value );
+				$( "#databases_amount" ).val( ui.value );
 				count_total_price();
 			}
 		});
+		$("#databases_amount").change(function() {
+		    $("#databases").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
+		});
+
 		$( "#disk" ).slider({
 			// animate: true,
 			orientation: "horizontal",
@@ -260,10 +273,16 @@ $(function() {
 			max: 15000,
 			step: 1000,
 			slide: function( event, ui ) {
-				$( "#disk_amount" ).html( ui.value );
+				$( "#disk_amount" ).val( ui.value );
 				count_total_price();
 			}
 		});
+		$("#disk_amount").change(function() {
+		    $("#disk").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
+		});
+
 		$( "#ram" ).slider({
 			// animate: true,
 			orientation: "horizontal",
@@ -272,10 +291,16 @@ $(function() {
 	 		max: 1120,
 			step: 64,
 			slide: function( event, ui ) {
-				$( "#ram_amount" ).html( ui.value );
+				$( "#ram_amount" ).val( ui.value );
 				count_total_price();
 			}
 		});
+		$("#ram_amount").change(function() {
+		    $("#ram").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
+		});
+
 		$( "#ip" ).slider({
 			// animate: true,
 			orientation: "horizontal",
@@ -284,10 +309,17 @@ $(function() {
 			max: 20,
 			step: 1,
 			slide: function( event, ui ) {
-				$( "#ip_amount" ).html( ui.value );
+				$( "#ip_amount" ).val( ui.value );
 				count_total_price();
 			}
 		});
+		$("#ip_amount").change(function() {
+		    $("#ip").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
+		});
+
+
 		$( "#mailboxes" ).slider({
 			// animate: true,
 			orientation: "horizontal",
@@ -296,9 +328,14 @@ $(function() {
 			max: 40,
 			step: 1,
 			slide: function( event, ui ) {
-				$( "#mailboxes_amount" ).html( ui.value );
+				$( "#mailboxes_amount" ).val( ui.value );
 				count_total_price();
 			}
+		});
+		$("#mailboxes_amount").change(function() {
+		    $("#mailboxes").slider(
+		    	'value', $(this).val(), count_total_price()
+		    );
 		});
 		
         
@@ -309,22 +346,22 @@ $(function() {
 			$(this).addClass( "preset_active" );
 			
 			$( "#sites" ).slider("value", 1);
-			$( "#sites_amount" ).html( 1 );
+			$( "#sites_amount" ).val( 1 );
 			
 			$( "#databases" ).slider("value", 1);
-			$( "#databases_amount" ).html( 1 );
+			$( "#databases_amount" ).val( 1 );
 			
 			$( "#disk" ).slider("value", 3000);
-			$( "#disk_amount" ).html( 3000 );
+			$( "#disk_amount" ).val( 3000 );
 			
 			$( "#ram" ).slider("value", 160);
-			$( "#ram_amount" ).html( 160 );
+			$( "#ram_amount" ).val( 160 );
 			
 			$( "#ip" ).slider("value", 0);
-			$( "#ip_amount" ).html( 0 );
+			$( "#ip_amount" ).val( 0 );
 			
 			$( "#mailboxes" ).slider("value", 1);
-			$( "#mailboxes_amount" ).html( 1 );
+			$( "#mailboxes_amount" ).val( 1 );
 			
 			count_total_price();
 		});
@@ -336,17 +373,17 @@ $(function() {
 			$(this).addClass( "preset_active" );
 			
 			$( "#sites" ).slider("value", 10);
-			$( "#sites_amount" ).html( 10 );
+			$( "#sites_amount" ).val( 10 );
 			
 			$( "#databases" ).slider("value", 10);
-			$( "#databases_amount" ).html( 10 );
+			$( "#databases_amount" ).val( 10 );
 			
             $( "#disk" ).slider("value", 5000);
-			$( "#disk_amount" ).html( 5000 );
+			$( "#disk_amount" ).val( 5000 );
 			
 			
 			$( "#ip" ).slider("value", 0);
-			$( "#ip_amount" ).html( 0 );
+			$( "#ip_amount" ).val( 0 );
 			
 			
 			count_total_price();
@@ -358,17 +395,17 @@ $(function() {
 			$(this).addClass( "preset_active" );
 			
 			$( "#sites" ).slider("value", 30);
-			$( "#sites_amount" ).html( 30 );
+			$( "#sites_amount" ).val( 30 );
 			
 			$( "#databases" ).slider("value", 30);
-			$( "#databases_amount" ).html( 30 );
+			$( "#databases_amount" ).val( 30 );
 			
             $( "#disk" ).slider("value", 10000);
-			$( "#disk_amount" ).html( 10000 );
+			$( "#disk_amount" ).val( 10000 );
 			
 			
 			$( "#ip" ).slider("value", 0);
-			$( "#ip_amount" ).html( 0 );
+			$( "#ip_amount" ).val( 0 );
 			
 			
 			count_total_price();
@@ -430,12 +467,12 @@ function count_bk_total_price() {
 
 function count_total_price() {
  	var total_price = window.total_price;
-	total_price = total_price+($( "#sites_amount" ).html() - $( "#sites" ).slider( "option", "min" ))*0.02;
-	total_price = total_price+($( "#databases_amount" ).html() - $( "#databases" ).slider( "option", "min" ))*0.02;
-	total_price = total_price+($( "#disk_amount" ).html() - $( "#disk" ).slider( "option", "min" ))/1000*0.3;
-	total_price = total_price+($( "#ram_amount" ).html() - $( "#ram" ).slider( "option", "min" ))/64*0.15;
-	total_price = total_price+($( "#ip_amount" ).html() - $( "#ip" ).slider( "option", "min" ))*1.5;
-	total_price = total_price+($( "#mailboxes_amount" ).html() - $( "#mailboxes" ).slider( "option", "min" ))*0.01;
+	total_price = total_price+($( "#sites_amount" ).val() - $( "#sites" ).slider( "option", "min" ))*0.02;
+	total_price = total_price+($( "#databases_amount" ).val() - $( "#databases" ).slider( "option", "min" ))*0.02;
+	total_price = total_price+($( "#disk_amount" ).val() - $( "#disk" ).slider( "option", "min" ))/1000*0.3;
+	total_price = total_price+($( "#ram_amount" ).val() - $( "#ram" ).slider( "option", "min" ))/64*0.15;
+	total_price = total_price+($( "#ip_amount" ).val() - $( "#ip" ).slider( "option", "min" ))*1.5;
+	total_price = total_price+($( "#mailboxes_amount" ).val() - $( "#mailboxes" ).slider( "option", "min" ))*0.01;
 	total_price = total_price.toFixed(2); //округляем
 	
 	$("#total_price").data('usd-price', total_price).attr('data-usd-price', total_price);

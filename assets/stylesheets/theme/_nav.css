@@ -28,14 +28,19 @@
 }
 
 .page .header {
-	background: var(--theme-1) url('/assets/images/hero.jpg') 50% no-repeat;
+	background-color: var(--theme-1);
+	background-image: url('../../images/wave.png'), url('../../images/hero.jpg');
+	--bg-hwave-state: left 50% bottom -94px;
+	background-position: var(--bg-hwave-state), 50% 0;
+	background-repeat: no-repeat, no-repeat;
+	background-size: auto, cover;
 }
 @media only screen and (min-width: 992px) {
 	.header {
 		min-height: 115px;
 	}
 	.page .header {
-		padding-bottom: 30px;
+		padding-bottom: 146px;
 	}
 }
 

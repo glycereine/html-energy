@@ -11,10 +11,10 @@
 	background-image: url('../../images/wave.png'), url('../../images/hero.jpg');
 	background-position: var(--bg-hwave-state), 50% 0;
 	background-repeat: no-repeat, no-repeat;
-	background-size: inherit, cover;
+	background-size: auto, cover;
 }
 
-.hero-section h3 {
+.hero-section h3, .page-title h3 {
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 12px;
@@ -23,12 +23,14 @@
 	text-transform: uppercase;
 }
 
-.hero-section h1 {
+.hero-section h1,
+.page-title h1 {
 	margin-bottom: 32px;
 	letter-spacing: -.4px;
 }
 
-.hero-title {
+.hero-title,
+.page-title {
 	margin-bottom: 44px;
 }
 
@@ -133,7 +135,7 @@
 }
 
 
-/* Наши преимущества
+/* SECTION: Наши преимущества
 ...............................*/
 .section-advantages {
 	padding-bottom: 29px;
@@ -190,7 +192,7 @@
 }
 
 
-/* Выберите красивое имя своему сайту
+/* SECTION: Выберите красивое имя своему сайту
 ...............................*/
 .section-name {
 	min-height: 400px;
@@ -209,13 +211,17 @@
 }
 
 
-/* Новости
+/* SECTION: Новости
 ...............................*/
 .section-news,
-.section-services {
-	padding: 125px 0 81px;
+.section-services,
+.section-wave {
 	background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
 }
+.section-news {
+	padding: 125px 0 81px;
+}
+
 .section-news .item {
 	margin-bottom: 31px;
 }
@@ -264,7 +270,7 @@
 }
 
 
-/* Заголовок блока
+/* SECTION: Заголовок блока
 ...............................*/
 .section-block {
 	min-height: 381px;
@@ -278,7 +284,7 @@
 }
 
 
-/* Hosting Top
+/* SECTION: Hosting Top
 ...............................*/
 .section-hosting-top {
     padding-bottom: 0;
@@ -292,13 +298,25 @@
 	padding-bottom: 30px;
 }
 
-
 .section-rate {
 	background-color: var(--color-lg-gray);
 }
 
 
 
+
+/* SECTION:
+...............................*/
+.section-hero-page  .btn-main {
+	min-width: 273px;
+}
+
+/* SECTION: Калькулятор
+...............................*/
+.section-calc {
+	padding-top: 176px;
+	padding-bottom: 0;
+}
 
 
 /*  FOOTER AREA
