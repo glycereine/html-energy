@@ -28,9 +28,10 @@
 }
 
 .page .header {
-	background-color: var(--theme-1);
-	background-image: url('../../images/wave.png'), url('../../images/hero.jpg');
 	--bg-hwave-state: left 50% bottom -94px;
+
+	background-color: var(--theme-1);
+	background-image: url('/assets/images/wave.png'), url('/assets/images/hero.jpg');
 	background-position: var(--bg-hwave-state), 50% 0;
 	background-repeat: no-repeat, no-repeat;
 	background-size: auto, cover;
@@ -42,6 +43,13 @@
 	.page .header {
 		padding-bottom: 146px;
 	}
+}
+@media only screen and (max-width: 768px) {
+	.page .header {
+		--bg-hwave-state: left -920px bottom -94px;
+		min-height: 155px;
+	}
+
 }
 
 
@@ -113,6 +121,10 @@
 .nav-phone a:not(:last-child) {
 	margin-right: 12px;
 }
+.nav-currency span {
+	cursor: pointer;
+}
+
 @media only screen and (min-width: 1200px) {
 	.nav-phone a:not(:last-child) {
 		margin-right: 20px;
@@ -181,7 +193,7 @@
 
 .navbar-main .nav-link:hover,
 .navbar-main .active {
-	color: #fff;
+	color: var(--invers);
 	background-color: var(--theme-3);
 }
 
@@ -194,7 +206,7 @@
 	}
 	.dropdown-toggle:after,
 	.nav-item.show .dropdown-toggle, .nav-item.show .dropdown-toggle:after:focus {
-		color: #fff;
+		color: var(--invers);
 	}
 }
 
@@ -228,7 +240,7 @@
 
 /*--- click ---*/
 	.dropdown-menu {
-		background-color: #fff;
+		background-color: var(--invers);
 	}
 
 /*--- hover ---*/
@@ -275,7 +287,7 @@
     width: 33px;
     height: 17px;
     padding: 7px 0;
-    color: #fff;
+    color: var(--invers);
 	background-clip: content-box;
     background-color: currentColor;
     transition: background-color 200ms;
@@ -400,7 +412,7 @@
 
 		overflow-y: auto;
 
-		background-color: #fff;
+		background-color: var(--invers);
 
 		display: flex;
 		/*justify-content: space-between;*/

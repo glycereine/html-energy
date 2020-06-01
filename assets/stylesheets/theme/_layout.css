@@ -80,12 +80,25 @@ section p:last-child {
         flex: 0 0 83.333333%;
         max-width: 83.333333%;
     }
+    .col-xlg-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
 }
 
+@media only screen and (min-width: 1300px){
+   
+}
 @media only screen and (min-width: 1400px){
     .col-m-lg-8 {
         -ms-flex: 0 0 66.666667%;
         flex: 0 0 66.666667%;
         max-width: 66.666667%;
+    }
+    .col-xlg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
     }
 }

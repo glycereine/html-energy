@@ -8,7 +8,7 @@
 	padding: 180px 0 200px;
 	--bg-hwave-state: left 50% bottom -94px;
 	background-color: var(--theme-1);
-	background-image: url('../../images/wave.png'), url('../../images/hero.jpg');
+	background-image: url('/assets/images/wave.png'), url('/assets/images/hero.jpg');
 	background-position: var(--bg-hwave-state), 50% 0;
 	background-repeat: no-repeat, no-repeat;
 	background-size: auto, cover;
@@ -179,7 +179,7 @@
 	display: flex;
 	min-height: 50px;
 	margin: 0;
-	padding: 2px 0 5px 112px;
+	padding: 5px 0 14px 112px;
 	align-items: center;
 }
 .advantages-block .description {
@@ -197,7 +197,7 @@
 .section-name {
 	min-height: 400px;
 	padding: 86px 0 75px;
-	background: url(../../images/section-spaces.jpg) 50% no-repeat;
+	background: url(/assets/images/section-spaces.jpg) 50% no-repeat;
 	background-size: cover;
 }
 
@@ -216,7 +216,7 @@
 .section-news,
 .section-services,
 .section-wave {
-	background: url(../../images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
+	background: url(/assets/images/wave2.png) 50% 0 no-repeat, linear-gradient(to bottom, var(--color-lg-gray2), var(--color-white));
 }
 .section-news {
 	padding: 125px 0 81px;
@@ -275,7 +275,7 @@
 .section-block {
 	min-height: 381px;
 	padding: 93px 0 100px;
-	background: url('../../images/section-block.jpg') 50% no-repeat;
+	background: url('/assets/images/section-block.jpg') 50% no-repeat;
 	background-size: cover;
 }
 
@@ -307,15 +307,48 @@
 
 /* SECTION:
 ...............................*/
+.section-hero-page {
+	padding-top: 40px;
+    padding-bottom: 44px;
+}
+.section-hero-page p {
+	line-height: 1.5;
+    margin-bottom: 24px;
+}
 .section-hero-page  .btn-main {
 	min-width: 273px;
+	box-shadow: var(--box-shadow-group_theme-2);
 }
 
 /* SECTION: Калькулятор
 ...............................*/
 .section-calc {
-	padding-top: 176px;
+	padding-top: 174px;
 	padding-bottom: 0;
+}
+
+
+/* SECTION: Купить хостинг
+...............................*/
+.section-buy {
+	min-height: 381px;
+	padding: 93px 0 100px;
+	background: url('/assets/images/section-buy.jpg') 50% no-repeat;
+	background-size: cover;
+}
+.section-buy p:last-child {
+	margin-bottom: 0;
+}
+
+.section-buy .btn-main {
+	min-width: 220px;
+}
+
+
+/* SECTION:
+...............................*/
+.section-services {
+	padding-top: 176px;
 }
 
 

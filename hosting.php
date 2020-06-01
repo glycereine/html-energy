@@ -19,12 +19,12 @@
 
 					<p>
 						<strong>Чтобы купить хостинг, просто нажмите кнопку "Заказать".  <br>
-						Простая регистрация, мгновенная оплата – и полный доступ в ваших руках!</strong> руках!</stro>их руках!</strong>уках!</st>ках!</s>
+						Простая регистрация, мгновенная оплата – и полный доступ в ваших руках!</strong></s>
 					</p>
 				</div>
 			</div>
 
-			<div class="mb-43" style="margin-bottom: 43px"></div>
+			<span class="block-spacer sp-sm" style="clear: both; display: block; height: 22px"></span>
 
 			<div class="btn-wrap">
 				<a href="#" class="btn-main">Заказать</a>
@@ -52,10 +52,12 @@
 							</div>
 
 							<div class="order-wrap">
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
-								<span class="order-label">Количество сайтов:</span>
+								<span class="order-label">									
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
+									Количество сайтов:
+								</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="sites" data-addon="347"></div>
 								</div>
@@ -63,10 +65,12 @@
 							</div>
 
 							<div class="order-wrap">
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
-								<span class="order-label">Количество баз данных:</span>
+								<span class="order-label">
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
+									Количество баз данных:
+								</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="databases" data-addon="348"></div>
 								</div>
@@ -74,10 +78,10 @@
 							</div>
 
 							<div class="order-wrap">
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
-								<span class="order-label">
+								<span class="order-label">									
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
 									Размер диска, мб:
 								</span>
 								<div class="runner-wrap sliderbox">
@@ -86,11 +90,11 @@
 								<input type="text" class="form-control" id="disk_amount" value="3000">
 							</div>
 							
-							<div class="order-wrap">    
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
+							<div class="order-wrap">								
 								<span class="order-label">
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
 									RAM (на скрипт), мб: <br>
 									<small>Количество памяти выделяемой на каждый скрипт</small>
 								</span>
@@ -100,22 +104,26 @@
 								<input type="text" class="form-control" id="ram_amount" value="160">
 							</div>
 
-							<div class="order-wrap">    
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
-								<span class="order-label">Почтовые ящики:</span>
+							<div class="order-wrap">
+								<span class="order-label">
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
+									Почтовые ящики:
+								</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="mailboxes" data-addon="349"></div>
 								</div>
 								<input type="text" class="form-control" id="mailboxes_amount" value="1">
 							</div>
 
-							<div class="order-wrap">    
-								<svg class="svg-ico ico-theme-1" data-name="ico-flash">
-									<use xlink:href="#ico-flash"></use>
-								</svg>
-								<span class="order-label">Выделенные IP адреса:</span>
+							<div class="order-wrap">
+								<span class="order-label">
+									<svg class="svg-ico ico-theme-1" data-name="ico-flash">
+										<use xlink:href="#ico-flash"></use>
+									</svg>
+									Выделенные IP адреса:
+								</span>
 								<div class="runner-wrap sliderbox">
 									<div class="runner-bg param_slider" id="ip" data-addon="345"></div>
 								</div>
@@ -164,7 +172,7 @@
 
 			<div class="row">
 				<div class="col-lg-6">
-					<table class="table_list">
+					<table class="table_list table_list-1">
 						<tbody>
 							<tr>
 								<th>
@@ -198,7 +206,7 @@
 					</table>
 				</div>
 				<div class="col-lg-6">
-					<table class="table_list">
+					<table class="table_list table_list-2">
 						<tbody>
 							<tr>
 								<th>
@@ -238,7 +246,7 @@
 	</section>
 
 
-	<section class="section-block invers-color invers-parent text-center">
+	<section class="section-buy invers-color invers-parent text-center">
 		<div class="container-fluid container-width-sm">
 			
 			<div class="section-title title-block title-center">
@@ -255,89 +263,116 @@
 	</section><!--//// Section Name -->
 
 	<section class="section-advantages">
-		<div class="container-fluid container-width-md">
+		<div class="container-fluid container-width">
 			
 			<div class="section-title title-block title-center">
 				<h2>Преимущества</h2>
 				<span class="title-line"><span class="line-inner"></span></span>
 			</div>
 
-			<div class="row justify-content-center slick-base">
-				<div class="col-md-6 col-lg-4 item">
+			<div class="row slick-base">
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
 					<div class="advantages-block block-style-base">
 						<div class="ico text-center">
 							<svg class="svg-ico ico-theme-1">
-								<use xlink:href="#ico-support"></use>
+								<use xlink:href="#ico-backup"></use>
 							</svg>
 						</div>
-						<h3>Техподдержка 24/7</h3>
+						<h3>Ежедневный бекап</h3>
 						<div class="description bd-rad">
 							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 item">
-					<div class="advantages-block block-style-base">
-						<div class="ico text-center">
-							<svg class="svg-ico ico-theme-1">
-								<use xlink:href="#ico-agile"></use>
-							</svg>
-						</div>
-						<h3>Аптайм 99.9%</h3>
-						<div class="description bd-rad">
-							Бесплатная защита от DDoS для всех клиентов виртуального хостинга.
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 item">
-					<div class="advantages-block block-style-base">
-						<div class="ico text-center">
-							<svg class="svg-ico ico-theme-1">
-								<use xlink:href="#ico-shield"></use>
-							</svg>
-						</div>
-						<h3>AntiDDoS</h3>
-						<div class="description bd-rad">
-							Профессионально, вежливо и оперативно. В любое время дня и ночи.
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-4 item">
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
 					<div class="advantages-block block-style-base">
 						<div class="ico text-center">
 							<svg class="svg-ico ico-theme-1">
 								<use xlink:href="#ico-virus"></use>
 							</svg>
 						</div>
-						<h3>Проверка на вирусы</h3>
+						<h3>Cканирование на вирусы</h3>
 						<div class="description bd-rad">
 							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 item">
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
 					<div class="advantages-block block-style-base">
 						<div class="ico text-center">
 							<svg class="svg-ico ico-theme-1">
-								<use xlink:href="#ico-searching"></use>
+								<use xlink:href="#ico-policy"></use>
 							</svg>
 						</div>
-						<h3>Круглосуточный мониторинг</h3>
+						<h3>Бесплатный SSL Let's Encrypt</h3>
 						<div class="description bd-rad">
-							Бесплатная защита от DDoS для всех клиентов виртуального хостинга.
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-lg-4 item">
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
 					<div class="advantages-block block-style-base">
 						<div class="ico text-center">
 							<svg class="svg-ico ico-theme-1">
-								<use xlink:href="#ico-ssd"></use>
+								<use xlink:href="#ico-dollar"></use>
 							</svg>
 						</div>
-						<h3>SSD</h3>
+						<h3>Возврат средств</h3>
 						<div class="description bd-rad">
-							Профессионально, вежливо и оперативно.
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
+					<div class="advantages-block block-style-base">
+						<div class="ico text-center">
+							<svg class="svg-ico ico-theme-1">
+								<use xlink:href="#ico-agile"></use>
+							</svg>
+						</div>
+						<h3>Аптайм</h3>
+						<div class="description bd-rad">
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
+					<div class="advantages-block block-style-base">
+						<div class="ico text-center">
+							<svg class="svg-ico ico-theme-1">
+								<use xlink:href="#ico-ssh"></use>
+							</svg>
+						</div>
+						<h3>SSH</h3>
+						<div class="description bd-rad">
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
+					<div class="advantages-block block-style-base">
+						<div class="ico text-center">
+							<svg class="svg-ico ico-theme-1">
+								<use xlink:href="#ico-php"></use>
+							</svg>
+						</div>
+						<h3>Смена версии PHP</h3>
+						<div class="description bd-rad">
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 col-xlg-3 item">
+					<div class="advantages-block block-style-base">
+						<div class="ico text-center">
+							<svg class="svg-ico ico-theme-1">
+								<use xlink:href="#ico-git"></use>
+							</svg>
+						</div>
+						<h3>Git</h3>
+						<div class="description bd-rad">
+							Недорого и качественно? Да, так бывает! Наши цены и условия самые привлекательные.
 						</div>
 					</div>
 				</div>
@@ -357,45 +392,49 @@
 
 			<div class="row">
 				<div class="col-lg-6">
-					<table class="table_list block-style-base">
+					<table class="table_list table_list-1 block-style-base">
 						<tbody>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									Панель управления ISPmanager Business
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									AntiDDoS
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									SSH
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									MariaDB, phpMyAdmin
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
@@ -403,45 +442,50 @@
 					</table>
 				</div>
 				<div class="col-lg-6">
-					<table class="table_list block-style-base">
+					<table class="table_list table_list-2 block-style-base">
 						<tbody>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									Панель управления ISPmanager Business
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									AntiDDoS
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									SSH
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
 							<tr>
 								<th>
+									<svg class="svg-ico ico-theme-3" data-name="ico-flash"><use xlink:href="#ico-flash"></use></svg>
 									MariaDB, phpMyAdmin
 								</th>
-								<td>
-									<svg class="svg-ico ico-theme-1">
-										<use xlink:href="#ico-servers-1" />
+								<td class="ico-td">
+									<svg class="svg-ico ico-theme-4">
+										<use xlink:href="#ico-confirmation" />
 									</svg>
 								</td>
 							</tr>
@@ -456,55 +500,56 @@
 
 
 	<section class="section-services">
-		<div class="container-fluid container-width-md">
+		<div class="container-fluid container-width">
 			<div class="section-title title-block title-center">
 				<h2>Часто задаваемые вопросы</h2>
 				<span class="title-line"><span class="line-inner"></span></span>
 			</div>
 
-			<div class="row">
-				<div class="col-lg-10">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-xlg-8">
 
-
-					<div class="accordion" id="accordionExample">
+					<div class="accordion block-style-base" id="accordion">
 						<div class="card">
-							<div class="card-header" id="headingOne">
-								<h2 class="mb-0">
-									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Collapsible Group Item #1
-									</button>
-								</h2>
-							</div>
+							<button id="heading-1" class="card-header collapsed" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+								<strong>1.</strong> Текст вопроса должен быть здесь и может быть длинным								
+								<svg class="svg-ico ico-theme-1" viewBox="0 0 640 640">
+									<use class="use-collapse-1" xlink:href="#cls-collapse-1" />
+									<use class="use-collapse-2" xlink:href="#cls-collapse-2" />
+								</svg>
 
-							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+							</button>
+							<div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion">
 								<div class="card-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
 								</div>
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" id="headingTwo">
-								<h2 class="mb-0">
-									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										Collapsible Group Item #2
-									</button>
-								</h2>
-							</div>
-							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+							<button id="heading-2" class="card-header" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+								<strong>2.</strong> Текст вопроса должен быть здесь и может быть длинным
+								<svg class="svg-ico ico-theme-1" viewBox="0 0 640 640">
+									<use class="use-collapse-1" xlink:href="#cls-collapse-1" />
+									<use class="use-collapse-2" xlink:href="#cls-collapse-2" />
+								</svg>
+							</button>
+							<div id="collapse-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 								<div class="card-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
 								</div>
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" id="headingThree">
-								<h2 class="mb-0">
-									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-										Collapsible Group Item #3
-									</button>
-								</h2>
-							</div>
-							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+							<button id="heading-3" class="card-header" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+								<strong>3.</strong> Текст вопроса должен быть здесь и может быть длинным
+								<svg class="svg-ico ico-theme-1" viewBox="0 0 640 640">
+									<use class="use-collapse-1" xlink:href="#cls-collapse-1" />
+									<use class="use-collapse-2" xlink:href="#cls-collapse-2" />
+								</svg>
+							</button>
+							<div id="collapse-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 								<div class="card-body">
 									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 								</div>
@@ -513,15 +558,13 @@
 					</div>
 
 					<style>
-						.collapsing {
+						.accordion .collapsing {
 							position: relative;
 							height: 0;
 							overflow: hidden;
 							transition: height .35s ease;
 						}
 					</style>
-
-
 					
 				</div>
 			</div>

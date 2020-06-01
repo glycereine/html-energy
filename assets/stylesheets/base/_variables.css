@@ -1,6 +1,5 @@
 /*  VARIABLES
 ----------------------------------------------------------- */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
 
 .test-ff {
@@ -14,7 +13,6 @@
 	Black       900
 */
 }
-
 
 :root {
 
@@ -34,12 +32,14 @@
 	--color-lg-blue       : #e0ecf5;
 	--color-black         : #000;
 	--color-dk-gray       : #626669;
+	--color-green         : #50a444;
 	
 	
 	/* @theme colors      : */
 	--theme-1             : #0064aa;
 	--theme-2             : #ea1f26;
 	--theme-3             : #f6901e;
+	--theme-4             : var(--color-green);
 	
 	--text-dk 			  : var(--color-dk);
 	--text-lg             : var(--color-dk-gray);
@@ -66,7 +66,9 @@
 	/* @FF                : */
 	--Inter               : 'Inter', serif;
 	--main-font           : var(--Inter);
-	
+
+/*  @ Font
+...............................*/
 	/* @Font size         : */
 	--fz-base             : 16px;
 
@@ -79,35 +81,51 @@
 	--fz-h4               : 20px;
 
 	/* :placeholder */
-
 	--color-placeholder   : var(--text-lg);
 	--font-placeholder    : 300 var(--fz-md )/1.6 var(--Inter);
 	
+
+/*  @ Footer
+...............................*/
 	/* @Footer bg colors  : */
 	--footer-area-bg      : var(--color-dk);
 	--footer-copy-bg      : #15191c;
-	
 	
 	/* @Footer text colors: */
 	--text-footer         : #9d9d9d;
 	--text-footer-active  : #66a2cc;
 	--text-copy           : #5d5d5d;
 
-	/* @Radius: */
+
+/*  @ Borders
+...............................*/
 	--bd-rad-base         : 20px;
 
-	/* @Border: */
 	--bd-base             : 1px solid var(--color-lg-gray);
 	--bd-b-base  		  : 2px solid var(--color-lg-gray);
 	--bd-base2            : 1px solid var(--color-lg-gray2);
 
-	/* @box-shadow: */
-	--box-shadow-group 	  : 18px 18px 38px 8px rgba(var(--text-dk-rgb),.36);
-	--box-shadow-group-lg : 18px 18px 38px 8px rgba(var(--text-dk-rgb),.11);
+/*  @ Box Shadow
+...............................*/
 
-	--box-shadow-group_theme-1 : 18px 18px 38px 8px rgba(var(--theme-rgb-1),.42);
-	--box-shadow-group_theme-2 : 18px 18px 38px 8px rgba(var(--theme-rgb-2),.36);
-	
+	--bsh-position-1 	  : 18px 18px 38px 8px;
+	--bsh-position-2      : 15px 13px 24px 8px;
+	--bsh-position-3      : 15px 13px 24px 8px;
+
+
+	--box-shadow-group 	  : var(--bsh-position-1) rgba(var(--text-dk-rgb),.36);
+	--box-shadow-group-lg : var(--bsh-position-1) rgba(var(--text-dk-rgb),.11);
+
+
+	--box-shadow-group_theme-1 : var(--bsh-position-2) rgba(var(--theme-rgb-1),.22);
+	--box-shadow-group_theme-2 : var(--bsh-position-3) rgba(var(--theme-rgb-2),.22);
 
 	position: relative;
+}
+
+
+@media only screen and (max-width: 767px) {
+	:root {
+		--bsh-position-3   : 8px 8px 20px 4px;
+	}
 }
