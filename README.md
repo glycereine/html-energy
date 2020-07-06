@@ -1,3 +1,7 @@
 # html-energy
 
-http://bestparts.info/index.php
+## В данный момент вход по IP
+## Разворачивать для просмотра на локалке
+
+http://bestparts.info/
+
